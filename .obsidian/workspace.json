@@ -30,9 +30,33 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "24f8ec56c61eed2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/GNN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69dcbf36259d8f8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/GNN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
+                "file": "GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
+                "file": "GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "meeting/AI = 机器学习 + 逻辑推理.md"
+                "file": "GNN/GNN.md"
               }
             }
           }
@@ -159,10 +183,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8ae5e415ed3a1a2b",
+  "active": "69dcbf36259d8f8b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "GNN/GIN.md",
+    "GNN/GNN.md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
+    "GNN",
+    "conflict-files-obsidian-git.md",
     "Welcome.md",
     "meeting"
   ]
