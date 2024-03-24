@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/Spectral Graph Theory.md",
+                "file": "GNN/GCN.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/Spectral Graph Theory.md",
+                "file": "GNN/GCN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/Spectral Graph Theory.md",
+                "file": "GNN/GCN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/Spectral Graph Theory.md"
+                "file": "GNN/GCN.md"
               }
             }
           }
@@ -173,9 +173,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "4a2381cc055ce465",
+  "active": "012f1cbc327ac5c6",
   "lastOpenFiles": [
     "GNN/GNN.md",
+    "GNN/GCN.md",
     "GNN/Spectral Graph Theory.md",
     "谱分解.md",
     "GNN/GIN (Graph Isomorphism Network).md",
