@@ -1,1 +1,3 @@
-[[GIN]]
+## 变种
+[[GIN (Graph Isomorphism Network)]]
+

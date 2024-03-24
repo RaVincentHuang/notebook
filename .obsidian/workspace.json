@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "41a48d74e44a0f1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ae5e415ed3a1a2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "24f8ec56c61eed2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GNN/GNN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "69dcbf36259d8f8b",
             "type": "leaf",
             "state": {
@@ -54,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a326c3f6c023ee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/GIN (Graph Isomorphism Network).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,35 +93,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75d9d7b8eff9920a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "GNN/GNN.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "bfa13ad5da1caae3",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "GNN/GNN.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "dd6a07222f767716",
             "type": "leaf",
             "state": {
@@ -157,12 +104,41 @@
             }
           },
           {
-            "id": "c578becf693a5d99",
+            "id": "7c803dd32d5e9d0b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GNN/GIN (Graph Isomorphism Network).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f80760debc411eb4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GNN/GIN (Graph Isomorphism Network).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b33be1eb712e140e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GNN.md"
+                "file": "GNN/GIN (Graph Isomorphism Network).md"
               }
             }
           }
@@ -170,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,13 +155,16 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false,
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "69dcbf36259d8f8b",
+  "active": "1a326c3f6c023ee5",
   "lastOpenFiles": [
-    "GNN/GIN.md",
     "GNN/GNN.md",
+    "GNN/GIN (Graph Isomorphism Network).md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "GNN",
     "conflict-files-obsidian-git.md",
