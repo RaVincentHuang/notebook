@@ -154,7 +154,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -175,11 +176,12 @@
   },
   "active": "4a2381cc055ce465",
   "lastOpenFiles": [
-    "GNN/GCN.md",
-    "GNN/GNN.md",
     "GNN/Spectral Graph Theory.md",
-    "谱分解.md",
     "GNN/GIN (Graph Isomorphism Network).md",
+    "GNN/GNN.md",
+    "GNN/GCN.md",
+    "GNN/GAT.md",
+    "谱分解.md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "GNN",
     "conflict-files-obsidian-git.md",
