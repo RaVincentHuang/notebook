@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/GIN (Graph Isomorphism Network).md",
+                "file": "GNN/GNN.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GIN (Graph Isomorphism Network).md",
+                "file": "GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GIN (Graph Isomorphism Network).md",
+                "file": "GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GIN (Graph Isomorphism Network).md"
+                "file": "GNN/GNN.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "1a326c3f6c023ee5",
   "lastOpenFiles": [
-    "GNN/GNN.md",
     "GNN/GIN (Graph Isomorphism Network).md",
+    "GNN/GNN.md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "GNN",
     "conflict-files-obsidian-git.md",
