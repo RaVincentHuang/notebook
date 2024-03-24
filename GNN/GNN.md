@@ -1,11 +1,8 @@
 ## 收集
 [DeepGraphLibrary](https://www.dgl.ai/)
 
- 
- 
 
-
-
-## 变11种
+## 理论
 [[GIN (Graph Isomorphism Network)]]
+[[Spectral Graph Theory]]
 

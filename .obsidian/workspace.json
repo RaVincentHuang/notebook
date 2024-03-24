@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Spectral Graph Theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Spectral Graph Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Spectral Graph Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GNN.md"
+                "file": "GNN/Spectral Graph Theory.md"
               }
             }
           }
@@ -163,8 +163,9 @@
   },
   "active": "1a326c3f6c023ee5",
   "lastOpenFiles": [
-    "GNN/GIN (Graph Isomorphism Network).md",
     "GNN/GNN.md",
+    "GNN/Spectral Graph Theory.md",
+    "GNN/GIN (Graph Isomorphism Network).md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "GNN",
     "conflict-files-obsidian-git.md",
