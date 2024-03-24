@@ -1,6 +1,11 @@
 ## 收集
-****
+[DeepGraphLibrary](https://www.dgl.ai/)
 
-## 变1种
+ 
+ 
+
+
+
+## 变11种
 [[GIN (Graph Isomorphism Network)]]
 
