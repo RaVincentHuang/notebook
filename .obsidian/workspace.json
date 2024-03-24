@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d82064710ed764c8",
+        "id": "4037cf9e86fbd299",
         "type": "tabs",
         "children": [
           {
-            "id": "8e3b63503e4cf53a",
+            "id": "bc252da96b788ec0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,20 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a2db01a8f37a7882",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3b756bf4fb5cab20",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -160,7 +146,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e3b63503e4cf53a",
+  "active": "bc252da96b788ec0",
   "lastOpenFiles": [
     "Welcome.md"
   ]
