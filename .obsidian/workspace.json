@@ -18,22 +18,21 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "a2db01a8f37a7882",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "3b756bf4fb5cab20",
+            "id": "6d7c1f3d10bb00e9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "meeting/AI = 机器学习 + 逻辑推理.md"
               }
             }
           }
@@ -160,8 +159,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e3b63503e4cf53a",
+  "active": "6d7c1f3d10bb00e9",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Welcome.md",
+    "meeting/AI = 机器学习 + 逻辑推理.md",
+    "meeting"
   ]
 }
