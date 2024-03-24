@@ -8,6 +8,7 @@ $$
 $$
 L = D -A
 $$
+对其进行[[谱分解]]
 $$
-L = U \Lambda U^\
+L = U \Lambda U^\dagger
 $$

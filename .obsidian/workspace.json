@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a2381cc055ce465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/Spectral Graph Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,10 +173,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "1a326c3f6c023ee5",
+  "active": "4a2381cc055ce465",
   "lastOpenFiles": [
     "GNN/GNN.md",
     "GNN/Spectral Graph Theory.md",
+    "谱分解.md",
     "GNN/GIN (Graph Isomorphism Network).md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "GNN",
