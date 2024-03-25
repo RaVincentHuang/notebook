@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f767ee82d958d9ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tensorflow/数据处理.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tensorflow/数据处理.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tensorflow/数据处理.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -183,11 +195,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c489d1c0fa8dd209",
+  "active": "f767ee82d958d9ae",
   "lastOpenFiles": [
-    "tensorflow/Gradient Tape.md",
     "tensorflow/数据处理.md",
     "conflict-files-obsidian-git.md",
+    "tensorflow/Gradient Tape.md",
     "数学",
     "GNN/GAT.md",
     "tensorflow",
