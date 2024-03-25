@@ -19,9 +19,15 @@ tf.Tensor(4.0, shape=(), dtype=float32 )
 ```
 **对于常量的梯度**
 ```python
-x = tf . ones ((2,2) )
+x = tf.ones ((2,2) )
 
-with tf . GradientTape () as tape :
-	tape .watch(x) # x为constant， 必 须 显 式 监 控
-	y = tf . reduce_sum(x) 6 z = tf . multiply (y,y) 7 8 dz_dx = tape . gradient ( z , x)
+with tf.GradientTape() as tape :
+	tape.watch(x) # x为constant， 必 须 显 式 监 控
+	y = tf.reduce_sum(x)
+	z = tf.multiply (y,y)
+
+dz_dx = tape.gradient ( z , x)
 ```
+
+注意到，只有设置`GradientTape(persistent=True)`才能多次使用它进行求导
+
