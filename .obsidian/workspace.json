@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb398d8b61fe191b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/GAT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e7c23f0d29c7a2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tensorflow/数据处理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "760ac7ec05fd3a32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "meeting/AI = 机器学习 + 逻辑推理.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -146,10 +183,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6d7c1f3d10bb00e9",
+  "active": "760ac7ec05fd3a32",
   "lastOpenFiles": [
-    "Welcome.md",
+    "conflict-files-obsidian-git.md",
+    "tensorflow/数据处理.md",
+    "数学",
+    "GNN/GAT.md",
+    "tensorflow",
+    "GNN/GCN.md",
+    "GNN/GIN (Graph Isomorphism Network).md",
+    "GNN/GNN.md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
+    "数学/谱分解.md",
+    "GNN/Spectral Graph Theory.md",
+    "GNN",
+    "Welcome.md",
     "meeting"
   ]
 }
