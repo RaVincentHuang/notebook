@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d644105fa5514b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNN/典型卷积网络.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -195,10 +207,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3f6f24f88e23250a",
+  "active": "4d644105fa5514b6",
   "lastOpenFiles": [
-    "tensorflow/数据处理.md",
+    "CNN/卷积相关的计算.md",
     "CNN/典型卷积网络.md",
+    "tensorflow/数据处理.md",
     "CNN",
     "conflict-files-obsidian-git.md",
     "tensorflow/Gradient Tape.md",
