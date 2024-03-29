@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/GAT.md",
+                "file": "GNN/GCN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4263da0d5f81c6e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/概念/Graphlets.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -133,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GAT.md",
+                "file": "GNN/概念/Graphlets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GAT.md",
+                "file": "GNN/概念/Graphlets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GAT.md"
+                "file": "GNN/概念/Graphlets.md"
               }
             }
           }
@@ -186,8 +198,13 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "cabe037d9946f14c",
+  "active": "4263da0d5f81c6e0",
   "lastOpenFiles": [
+    "GNN/GCN.md",
+    "GNN/概念/Graphlets.md",
+    "未命名",
+    "GNN/GAT.md",
+    "GNN/概念",
     "meeting/LLM-Code.md",
     "conflict-files-obsidian-git.md",
     "GNN/GNN.md",
@@ -202,8 +219,6 @@
     "tensorflow",
     "GNN/Spectral Graph Theory.md",
     "GNN/GIN (Graph Isomorphism Network).md",
-    "GNN/GCN.md",
-    "GNN/GAT.md",
     "谱分解.md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "GNN",
