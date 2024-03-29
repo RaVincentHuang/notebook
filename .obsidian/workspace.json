@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aed22b7932e3ba74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -133,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meeting/LLM-Code.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "meeting/LLM-Code.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "meeting/LLM-Code.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -186,10 +198,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "cabe037d9946f14c",
+  "active": "aed22b7932e3ba74",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "meeting/LLM-Code.md",
+    "conflict-files-obsidian-git.md",
     "GNN/GNN.md",
     "CNN/卷积核.md",
     "CNN/卷积相关的计算.md",
