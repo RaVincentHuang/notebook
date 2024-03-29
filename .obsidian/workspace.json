@@ -145,7 +145,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/概念/Graphlets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +161,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/概念/Graphlets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/概念/Graphlets.md"
+                "file": "未命名.md"
               }
             }
           }
@@ -198,11 +196,12 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "4263da0d5f81c6e0",
+  "active": "012f1cbc327ac5c6",
   "lastOpenFiles": [
-    "GNN/GCN.md",
+    "GNN/Task",
     "GNN/概念/Graphlets.md",
-    "未命名",
+    "未命名.md",
+    "GNN/GCN.md",
     "GNN/GAT.md",
     "GNN/概念",
     "meeting/LLM-Code.md",
