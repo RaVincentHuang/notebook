@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "87a7859c2f1f49e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/Task/Link Prediction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -145,6 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "GNN/Task/Link Prediction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,6 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "GNN/Task/Link Prediction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "GNN/Task/Link Prediction.md"
               }
             }
           }
@@ -196,11 +210,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "012f1cbc327ac5c6",
+  "active": "87a7859c2f1f49e3",
   "lastOpenFiles": [
+    "GNN/Task/Link Prediction.md",
     "GNN/Task",
     "GNN/概念/Graphlets.md",
-    "未命名.md",
     "GNN/GCN.md",
     "GNN/GAT.md",
     "GNN/概念",
