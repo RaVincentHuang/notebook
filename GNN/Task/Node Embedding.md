@@ -44,7 +44,9 @@ N_R(u) = \text{neighbourhood of $u$ obtained by some random walk strategy $R$}
 $$
 $$
 \begin{align}
- & \arg \max_Z \sum_{u \in V} \log \Pr(N_R(u)\mid \mathbf{z}_u) \\ \\
- & \text{s.t.} 
+ & \arg \max_Z \sum_{u \in V} \log \Pr(N_R(u)\mid \mathbf{z}_u) \\
+\text{Equivalently:}\quad  & \arg \min_Z \mathcal{L} = \sum_{u \in V}\sum_{v \in N_R(u)} -\log(\Pr(v\mid \mathbf{z}_u)) \\ \\
+\text{where}\quad \Pr(v\mid \mathbf{z}_u) = 
 \end{align}
+
 $$
