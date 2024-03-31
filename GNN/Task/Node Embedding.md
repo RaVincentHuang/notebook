@@ -13,6 +13,11 @@ $$
 $$
 \mathrm{simlarity}(u, v) \approx \mathbf{z}_{v}^{{\top}}\mathbf{z}_{u}
 $$
-#### Shallow Enco
+#### Shallow Encoding
+$$
+\mathbf{Z} = \begin{pmatrix}
+z_{v_{1}} z_{v_{2}}
+\end{pmatrix}
+$$
 
 **DeepWalk**, **node2vec**
