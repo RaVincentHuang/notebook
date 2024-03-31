@@ -5,22 +5,28 @@ $$
 \mathrm{ENC}: V \to \mathbb{R}^d
 $$
 ### Components
-**Encoder:** 
+#### Encoder 
 $$
 \mathrm{ENC}(v) = \mathbf{z}_{v}
 $$
-**Similarity function:** specifies how the relationships in vector space map to the relationships in the original network
-$$
-\mathrm{simlarity}(u, v) \approx \mathbf{z}_{v}^{{\top}}\mathbf{z}_{u}
-$$
-#### Shallow Encoding
+
+**Shallow Encoding**
 $$
 \begin{align}
 \mathbf{Z}  & = \begin{pmatrix}
 z_{v_{1}} &  z_{v_{2}} & \dots & z_{v_{n}}
 \end{pmatrix} \in \mathbb{R}^{d \times n} \\
-\mathrm{ENC}(v)  & = \mathbf{Z} \cdot  
+\mathrm{ENC}(v)  & = \mathbf{Z} \cdot v \quad \text{where}\  v \in \mathbb{I}^{n}
 \end{align}
 $$
+#### Similarity function 
+specifies how the relationships in vector space map to the relationships in the original network
+$$
+\mathrm{simlarity}(u, v) \approx \mathbf{z}_{v}^{{\top}}\mathbf{z}_{u}
+$$
+如何定义这种相似度呢？
++ linked
++ share neighbors
++ have similar “structural roles“
 
 **DeepWalk**, **node2vec**
