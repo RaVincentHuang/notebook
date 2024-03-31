@@ -55,3 +55,6 @@ $\mathcal{O}(|V|^2)$ ，可以用[[Negative smapling]]技术压缩
 $$
 -\log\left(\frac{\exp(\mathbf{z}_u^{\top}\mathbf{z}_v)}{\sum_{k\in V}\exp(\mathbf{z}_u^{\top}\mathbf{z}_n))}\right) \approx \log\left(\sigma(\mathbf{z}_u^{\top}\mathbf{z}_v))\right) + \sum_{i = 1}^k\log\left(\sigma(-\mathbf{z}_u^{\top}\mathbf{z}_{n_i}))\right), \quad n_i \thicksim P_V
 $$
+接下来采用[[Stochastic Gradient Descent (SGD)]]进行优化
+
+**Strategies**

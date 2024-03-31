@@ -126,9 +126,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6fd6966bf6df3d55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/Task/Node Embedding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -258,11 +270,13 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "2fcf764f03ad27b7",
+  "active": "6fd6966bf6df3d55",
   "lastOpenFiles": [
+    "ML理论/Stochastic Gradient Descent (SGD).md",
+    "ML理论",
+    "GNN/Task/Node Embedding.md",
     "采样技术/Negative smapling.md",
     "采样技术",
-    "GNN/Task/Node Embedding.md",
     "特殊函数/Sigmoid.md",
     "特殊函数/Softmax.md",
     "特殊函数",
