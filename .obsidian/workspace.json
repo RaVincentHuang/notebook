@@ -4,95 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "d82064710ed764c8",
+        "id": "4037cf9e86fbd299",
         "type": "tabs",
         "children": [
           {
-            "id": "6d7c1f3d10bb00e9",
+            "id": "69dcbf36259d8f8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meeting/AI = 机器学习 + 逻辑推理.md",
+                "file": "GNN/GNN.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eb398d8b61fe191b",
+            "id": "1a326c3f6c023ee5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/GAT.md",
+                "file": "GNN/Spectral Graph Theory.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6e7c23f0d29c7a2c",
+            "id": "4a2381cc055ce465",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tensorflow/数据处理.md",
+                "file": "GNN/GNN.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c489d1c0fa8dd209",
+            "id": "cabe037d9946f14c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tensorflow/数据处理.md",
+                "file": "GNN/GCN.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3f6f24f88e23250a",
+            "id": "4263da0d5f81c6e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNN/典型卷积网络.md",
+                "file": "GNN/概念/Graphlets.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4d644105fa5514b6",
+            "id": "87a7859c2f1f49e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNN/典型卷积网络.md",
+                "file": "GNN/Task/Link Prediction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a586304d3169cd76",
+            "id": "04460a5b748d3996",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNN/典型卷积网络.md",
+                "file": "Graph-Level Features.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9ee62ebb5c8413b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Node Embedding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -153,35 +165,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75d9d7b8eff9920a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "CNN/典型卷积网络.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "bfa13ad5da1caae3",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "CNN/典型卷积网络.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "dd6a07222f767716",
             "type": "leaf",
             "state": {
@@ -193,21 +176,50 @@
             }
           },
           {
-            "id": "c578becf693a5d99",
+            "id": "7c803dd32d5e9d0b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Node Embedding.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f80760debc411eb4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Node Embedding.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b33be1eb712e140e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNN/典型卷积网络.md"
+                "file": "Node Embedding.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,33 +228,38 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false,
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "a586304d3169cd76",
+  "active": "c9ee62ebb5c8413b",
   "lastOpenFiles": [
-    "meeting/LLM-Code.md",
     "Graph-Level Features.md",
-    "GNN/概念/Graphlets.md",
-    "GNN/概念",
+    "Node Embedding.md",
     "GNN/Task/Link Prediction.md",
     "GNN/Task",
-    "CNN/卷积核.md",
-    "CNN/典型卷积网络.md",
-    "CNN/卷积相关的计算.md",
-    "tensorflow/数据处理.md",
-    "CNN",
-    "conflict-files-obsidian-git.md",
-    "tensorflow/Gradient Tape.md",
-    "数学",
-    "GNN/GAT.md",
-    "tensorflow",
+    "GNN/概念/Graphlets.md",
     "GNN/GCN.md",
-    "GNN/GIN (Graph Isomorphism Network).md",
+    "GNN/GAT.md",
+    "GNN/概念",
+    "meeting/LLM-Code.md",
+    "conflict-files-obsidian-git.md",
     "GNN/GNN.md",
-    "meeting/AI = 机器学习 + 逻辑推理.md",
+    "CNN/卷积核.md",
+    "CNN/卷积相关的计算.md",
+    "CNN/典型卷积网络.md",
+    "CNN",
     "数学/谱分解.md",
+    "数学",
+    "tensorflow/Gradient Tape.md",
+    "tensorflow/数据处理.md",
+    "tensorflow",
     "GNN/Spectral Graph Theory.md",
+    "GNN/GIN (Graph Isomorphism Network).md",
+    "谱分解.md",
+    "meeting/AI = 机器学习 + 逻辑推理.md",
     "GNN",
     "Welcome.md",
     "meeting"
