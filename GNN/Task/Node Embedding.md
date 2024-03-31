@@ -38,3 +38,7 @@ $$
 $$
 The (predicted) probability of visiting node $v$ on random walks starting from node $u$.
 
+**neighbourhood**
+$$
+N_R(u) = \text{neighbourhood of $u$ obtained by some random walk strategy $R$}
+$$
