@@ -28,5 +28,13 @@ $$
 + linked
 + share neighbors
 + have similar “structural roles“
-
 **DeepWalk**, **node2vec**
+
+### Random Walk
+
+**Def. ((Predicted) Probability)** 
+$$
+\Pr(v\mid \mathbf{z}_u)
+$$
+The (predicted) probability of visiting node $v$ on random walks starting from node $u$.
+
