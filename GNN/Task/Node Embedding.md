@@ -16,10 +16,10 @@ $$
 #### Shallow Encoding
 $$
 \begin{align}
-\mathbf{Z} = \begin{pmatrix}
-z_{v_{1}} &  z_{v_{2}} & \dots & z_{v_{d}}
-\end{pmatrix} \\
-\mathrm{ENC}(v) = \mathbf{Z} 
+\mathbf{Z}  & = \begin{pmatrix}
+z_{v_{1}} &  z_{v_{2}} & \dots & z_{v_{n}}
+\end{pmatrix} \in \mathbb{R}^{d \times n} \\
+\mathrm{ENC}(v)  & = \mathbf{Z} \cdot  
 \end{align}
 $$
 
