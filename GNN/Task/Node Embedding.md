@@ -46,7 +46,9 @@ $$
 \begin{align}
  & \arg \max_Z \sum_{u \in V} \log \Pr(N_R(u)\mid \mathbf{z}_u) \\
 \text{Equivalently:}\quad  & \arg \min_Z \mathcal{L} = \sum_{u \in V}\sum_{v \in N_R(u)} -\log(\Pr(v\mid \mathbf{z}_u)) \\ \\
-\text{where}\quad \Pr(v\mid \mathbf{z}_u) = 
+\text{where}\quad  & \Pr(v\mid \mathbf{z}_u) = \mathrm{softmax}(\mathbf{z}_u) = \frac{\exp(\mathbf{z}_u^{\top}\mathbf{z}_v)}{\sum_{k\in V}\exp(\mathbf{z}_u^{\top}\mathbf{z}_n))}
 \end{align}
 
 $$
+**时间复杂度**
+$\mathcal{O}(|V|^2)$ 
