@@ -58,3 +58,6 @@ $$
 接下来采用[[Stochastic Gradient Descent (SGD)]]进行优化
 
 **Strategies**
+Just run fixed-length, unbiased random walks starting from each node.  [DeepWalk: Online Learning of Social Representations](https://arxiv.org/abs/1403.6652)
+
+### node2vec
