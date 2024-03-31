@@ -13,3 +13,6 @@ $$
 $$
 \mathrm{simlarity}(u, v) \approx \mathbf{z}_{v}^{{\top}}\mathbf{z}_{u}
 $$
+#### Shallow Enco
+
+**DeepWalk**, **node2vec**

@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph-Level Features.md",
+                "file": "GNN/Task/Graph-Level Features.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node Embedding.md",
+                "file": "GNN/Task/Node Embedding.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node Embedding.md",
+                "file": "GNN/Task/Node Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node Embedding.md",
+                "file": "GNN/Task/Node Embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node Embedding.md"
+                "file": "GNN/Task/Node Embedding.md"
               }
             }
           }
@@ -234,10 +234,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "c9ee62ebb5c8413b",
+  "active": "012f1cbc327ac5c6",
   "lastOpenFiles": [
-    "Graph-Level Features.md",
-    "Node Embedding.md",
+    "GNN/Task/Graph-Level Features.md",
+    "GNN/Task/Node Embedding.md",
     "GNN/Task/Link Prediction.md",
     "GNN/Task",
     "GNN/概念/Graphlets.md",
