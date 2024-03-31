@@ -45,10 +45,13 @@ $$
 $$
 \begin{align}
  & \arg \max_Z \sum_{u \in V} \log \Pr(N_R(u)\mid \mathbf{z}_u) \\
-\text{Equivalently:}\quad  & \arg \min_Z \mathcal{L} = \sum_{u \in V}\sum_{v \in N_R(u)} -\log(\Pr(v\mid \mathbf{z}_u)) \\ \\
+\text{Equivalently:}\quad  & \arg \min_Z \mathcal{L} = \sum_{u \in V}\sum_{v \in N_R(u)} -\log(\Pr(v\mid \mathbf{z}_u)) \\
 \text{where}\quad  & \Pr(v\mid \mathbf{z}_u) = \mathrm{softmax}(\mathbf{z}_u) = \frac{\exp(\mathbf{z}_u^{\top}\mathbf{z}_v)}{\sum_{k\in V}\exp(\mathbf{z}_u^{\top}\mathbf{z}_n))}
 \end{align}
 
 $$
 **时间复杂度**
-$\mathcal{O}(|V|^2)$ ，可以用[[Negative smapling]]技术
+$\mathcal{O}(|V|^2)$ ，可以用[[Negative smapling]]技术压缩
+$$
+-\log\left(\frac{\exp(\mathbf{z}_u^{\top}\mathbf{z}_v)}{\sum_{k\in V}\exp(\mathbf{z}_u^{\top}\mathbf{z}_n))}\right) \approx \log\left(\sigma(\mathbf{z}_u^{\top}\mathbf{z}_v))\right) + \sum_{i = 1}^k\log\left(\sigma(-\mathbf{z}_u^{\top}\mathbf{z}_{n_i}))\right), \quad n_i \thicksim P_V
+$$
