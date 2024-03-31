@@ -11,5 +11,5 @@ $$
 $$
 **Similarity function:** specifies how the relationships in vector space map to the relationships in the original network
 $$
-\ma
+\mathrm{simlarity}(u, v) \approx \mathbf{z}_{v}^{{\top}}\mathbf{z}_{u}
 $$
