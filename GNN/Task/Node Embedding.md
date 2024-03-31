@@ -16,7 +16,7 @@ $$
 #### Shallow Encoding
 $$
 \mathbf{Z} = \begin{pmatrix}
-z_{v_{1}} z_{v_{2}}
+z_{v_{1}} &  z_{v_{2}} & 
 \end{pmatrix}
 $$
 
