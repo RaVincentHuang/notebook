@@ -42,3 +42,9 @@ The (predicted) probability of visiting node $v$ on random walks starting from n
 $$
 N_R(u) = \text{neighbourhood of $u$ obtained by some random walk strategy $R$}
 $$
+$$
+\begin{align}
+ & \arg \max_Z \sum_{u \in V} \log \Pr(N_R(u)\mid \mathbf{z}_u) \\ \\
+ & \text{s.t.} 
+\end{align}
+$$
