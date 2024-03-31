@@ -260,10 +260,12 @@
   },
   "active": "2fcf764f03ad27b7",
   "lastOpenFiles": [
+    "采样技术/Negative smapling.md",
+    "采样技术",
+    "GNN/Task/Node Embedding.md",
     "特殊函数/Sigmoid.md",
     "特殊函数/Softmax.md",
     "特殊函数",
-    "GNN/Task/Node Embedding.md",
     "GNN/Task/Graph-Level Features.md",
     "GNN/Task/Link Prediction.md",
     "GNN/Task",

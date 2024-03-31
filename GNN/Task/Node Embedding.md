@@ -51,4 +51,4 @@ $$
 
 $$
 **时间复杂度**
-$\mathcal{O}(|V|^2)$ 
+$\mathcal{O}(|V|^2)$ ，可以用[[Negative smapling]]技术
