@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "梯度下降.md",
+                "file": "ML理论/梯度下降 Gradient Descent.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "梯度下降.md",
+                "file": "ML理论/梯度下降 Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "梯度下降.md",
+                "file": "ML理论/梯度下降 Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "梯度下降.md"
+                "file": "ML理论/梯度下降 Gradient Descent.md"
               }
             }
           }
@@ -233,13 +233,13 @@
   },
   "active": "be83258acd8ef010",
   "lastOpenFiles": [
+    "ML理论/Stochastic Gradient Descent (SGD).md",
+    "ML理论/梯度下降 Gradient Descent.md",
     "GNN/Task/Node Embedding.md",
-    "梯度下降.md",
     "采样技术/Negative smapling.md",
     "CNN/典型卷积网络.md",
     "conflict-files-obsidian-git.md",
     "采样技术",
-    "ML理论/Stochastic Gradient Descent (SGD).md",
     "ML理论",
     "特殊函数/Softmax.md",
     "特殊函数/Sigmoid.md",
