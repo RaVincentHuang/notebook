@@ -19,3 +19,7 @@ G = (V, \mathbf{A}, \mathbf{X})
 $$
 $A$ is the adjacency matrix (assume binary)
 $\mathbf{X} \in \mathbb{R}^{|V|\times m}$ is a matrix of node features
+
+### 图的性质
+
+[[Permutation invariant]]

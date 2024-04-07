@@ -138,9 +138,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "80384519cbabacfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/Permutation invariant.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -217,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Permutation invariant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Permutation invariant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GNN.md"
+                "file": "GNN/Permutation invariant.md"
               }
             }
           }
@@ -270,15 +282,16 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "6fd6966bf6df3d55",
+  "active": "012f1cbc327ac5c6",
   "lastOpenFiles": [
+    "GNN/GNN.md",
+    "GNN/Permutation invariant.md",
     "GNN/概念/Graphlets.md",
     "GNN/Task/Node Embedding.md",
     "梯度下降.md",
     "采样技术/Negative smapling.md",
     "GNN/Task/Graph-Level Features.md",
     "GNN/Task/Link Prediction.md",
-    "GNN/GNN.md",
     "GNN/Spectral Graph Theory.md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "meeting/LLM-Code.md",
