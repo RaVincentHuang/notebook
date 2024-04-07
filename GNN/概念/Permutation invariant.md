@@ -5,4 +5,4 @@
 $$
 \sigma: \mathcal{G} \to \mathcal{G}
 $$
-和同构对应的置换矩阵$\mathbf{P}_\si$
+和同构对应的置换矩阵$\mathbf{P}_\sigma$
