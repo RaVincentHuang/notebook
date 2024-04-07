@@ -27,4 +27,11 @@ Graph neural networks consist of multiple permutation equivariant / invariant fu
 ### Aggregate Neighbors
 Generate node embeddings based on local network neighborhoods.
 Nodes aggregate information from their neighbors using neural networks.
+每一层表示信息的传播、聚集的次数
 
+$$
+\begin{align} 
+h_v^{(0)} = x_v  \\
+h_v^{(k + 1)} = \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(u)}}{|N(v)|} + B_k\right)
+\end{align}
+$$
