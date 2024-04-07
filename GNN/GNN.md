@@ -22,3 +22,9 @@ $\mathbf{X} \in \mathbb{R}^{|V|\times m}$ is a matrix of node features
 
 [[Permutation invariant]]
 Graph does not have a canonical order of the nodes.
+Graph neural networks consist of multiple permutation equivariant / invariant functions.
+
+### Aggregate Neighbors
+Generate node embeddings based on local network neighborhoods.
+Nodes aggregate information from their neighbors using neural networks.
+
