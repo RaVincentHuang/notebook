@@ -17,7 +17,14 @@ $$
 $𝑓$ is a permutation invariant function.
 
 进一步的，若我们仅考虑图的节点信息，得到下面的定义
-**Definition** For any graph function $𝑓: \mathbb{R}^{|V|\times |V|} \times\mathbb{R}^{|V|\times m} \to \mathbb{R}^d$ $𝑓$ is permutation invariant if 
+**Definition** For any graph function $𝑓: \mathbb{R}^{|V|\times |V|} \times\mathbb{R}^{|V|\times m} \to \mathbb{R}^d$, $𝑓$ is permutation invariant if 
 $$
-f(\)
+f(\mathbf{A}, \mathbf{X}) = f(\mathbf{P}\mathbf{A}\mathbf{P}^{-1}, \mathbf{P}\mathbf{X})
+$$
+for any permutation $\mathbf{P}$
+
+## Permutation equivariant
+将上面的定义改成
+$$
+\mathbf{P}f(\mathbf{A}, \mathbf{X}) = f(\mathbf{P}\mathbf{A}\mathbf{P}^{-1}, \mathbf{P}\mathbf{X})
 $$
