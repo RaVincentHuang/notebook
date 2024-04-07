@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/Task/Node Embedding.md",
+                "file": "GNN/GNN.md",
                 "mode": "source",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/Task/Node Embedding.md",
+                "file": "GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/Task/Node Embedding.md",
+                "file": "GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/Task/Node Embedding.md"
+                "file": "GNN/GNN.md"
               }
             }
           }
@@ -272,9 +272,10 @@
   },
   "active": "6fd6966bf6df3d55",
   "lastOpenFiles": [
+    "GNN/概念/Graphlets.md",
+    "GNN/Task/Node Embedding.md",
     "梯度下降.md",
     "采样技术/Negative smapling.md",
-    "GNN/Task/Node Embedding.md",
     "GNN/Task/Graph-Level Features.md",
     "GNN/Task/Link Prediction.md",
     "GNN/GNN.md",
@@ -292,7 +293,6 @@
     "采样技术",
     "特殊函数",
     "GNN/Task",
-    "GNN/概念/Graphlets.md",
     "GNN/概念",
     "conflict-files-obsidian-git.md",
     "CNN/卷积核.md",
