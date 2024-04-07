@@ -31,7 +31,8 @@ Nodes aggregate information from their neighbors using neural networks.
 
 $$
 \begin{align} 
-h_v^{(0)} = x_v  \\
-h_v^{(k + 1)} = \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(u)}}{|N(v)|} + B_k\right)
+h_v^{(0)} &= x_v  \\
+h_v^{(k + 1)} &= \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(u)}}{|N(v)|} + B_kh_v^{(k)}\right)
 \end{align}
 $$
+其中$\sigma$为激活函数
