@@ -35,4 +35,8 @@ h_v^{(0)} &= x_v  \\
 h_v^{(k + 1)} &= \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(u)}}{|N(v)|} + B_kh_v^{(k)}\right)
 \end{align}
 $$
-其中$\sigma$为激活函数
+其中$\sigma$为激活函数。
+
+$$
+H^{(k)} = \begin{bmatrix}h_1^{(k) \do}\end{bmatrix}
+$$
