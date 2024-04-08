@@ -9,7 +9,7 @@ $$
 其中$\sigma$为激活函数。
 
 $$
-H^{(k)} = \begin{bmatrix}h_1^{(k)}  &  \dots  &  h_{|V|^{(k)}}\end{bmatrix}^\top
+H^{(k)} = \begin{bmatrix}h_1^{(k)}  &  \dots  &  h_{|V|}^{(k)}\end{bmatrix}^\top
 $$
 故此时我们可以通过邻接矩阵有
 $$
@@ -32,3 +32,4 @@ $$
 $$
 H^{(k + 1)} = \sigma(D^{-1}AH^{(k)}W_k^{\top} + H^{(k)}B_k^{\top})
 $$
+## 与CNN的区别
