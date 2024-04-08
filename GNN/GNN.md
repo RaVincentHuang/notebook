@@ -38,5 +38,9 @@ $$
 其中$\sigma$为激活函数。
 
 $$
-H^{(k)} = \begin{bmatrix}h_1^{(k) \do}\end{bmatrix}
+H^{(k)} = \begin{bmatrix}h_1^{(k)}  &  \dots  &  h_{|V|^{(k)}}\end{bmatrix}^\top
+$$
+故此时我们可以通过邻接矩阵有
+$$
+\sum_{u\in N(v)}h_u^{(k)} = A_{v, :}H^{(k)}
 $$
