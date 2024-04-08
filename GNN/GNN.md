@@ -44,3 +44,7 @@ $$
 $$
 \sum_{u\in N(v)}h_u^{(k)} = A_{v, :}H^{(k)}
 $$
+定义对角矩阵$D$
+$$
+D = \mathrm{diag}(\deg(1), \dots, \deg(|V|))
+$$
