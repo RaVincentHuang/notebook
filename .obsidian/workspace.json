@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/概念/损失函数.md",
+                "file": "GNN/Task/Node Embedding.md",
                 "mode": "source",
                 "source": false
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/概念/损失函数.md",
+                "file": "GNN/Task/Node Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/概念/损失函数.md",
+                "file": "GNN/Task/Node Embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/概念/损失函数.md"
+                "file": "GNN/Task/Node Embedding.md"
               }
             }
           }
@@ -297,8 +297,9 @@
   },
   "active": "c4c5ab7dff77f47b",
   "lastOpenFiles": [
-    "ML理论/损失函数/交叉熵 Cross Entropy.md",
+    "GNN/Task/Graph-Level Features.md",
     "GNN/概念/损失函数.md",
+    "ML理论/损失函数/交叉熵 Cross Entropy.md",
     "ML理论/损失函数/L1和L2损失函数.md",
     "ML理论/损失函数",
     "ML理论/梯度下降.md",
@@ -311,7 +312,6 @@
     "GNN/Spectral Graph Theory.md",
     "GNN/概念/Graphlets.md",
     "采样技术/Negative smapling.md",
-    "GNN/Task/Graph-Level Features.md",
     "GNN/Task/Link Prediction.md",
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "meeting/LLM-Code.md",
