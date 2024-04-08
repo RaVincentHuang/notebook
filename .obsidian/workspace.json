@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/Task/Node Embedding.md",
+                "file": "GNN/概念/Aggregate Neighbors.md",
                 "mode": "source",
                 "source": false
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/Task/Node Embedding.md",
+                "file": "GNN/概念/Aggregate Neighbors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/Task/Node Embedding.md",
+                "file": "GNN/概念/Aggregate Neighbors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/Task/Node Embedding.md"
+                "file": "GNN/概念/Aggregate Neighbors.md"
               }
             }
           }
@@ -297,6 +297,7 @@
   },
   "active": "c4c5ab7dff77f47b",
   "lastOpenFiles": [
+    "GNN/Task/Node Embedding.md",
     "GNN/Task/Graph-Level Features.md",
     "GNN/概念/损失函数.md",
     "ML理论/损失函数/交叉熵 Cross Entropy.md",
@@ -308,7 +309,6 @@
     "GNN/GAT.md",
     "GNN/概念/Aggregate Neighbors.md",
     "GNN/概念/Permutation invariant.md",
-    "GNN/Task/Node Embedding.md",
     "GNN/Spectral Graph Theory.md",
     "GNN/概念/Graphlets.md",
     "采样技术/Negative smapling.md",
