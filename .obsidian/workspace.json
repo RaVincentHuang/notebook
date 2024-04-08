@@ -238,11 +238,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,7 +259,7 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "2fcf764f03ad27b7",
+  "active": "b33be1eb712e140e",
   "lastOpenFiles": [
     "GNN/概念/Permutation invariant.md",
     "GNN/Task/Node Embedding.md",

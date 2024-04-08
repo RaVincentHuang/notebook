@@ -32,7 +32,7 @@ Nodes aggregate information from their neighbors using neural networks.
 $$
 \begin{align} 
 h_v^{(0)} &= x_v  \\
-h_v^{(k + 1)} &= \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(u)}}{|N(v)|} + B_kh_v^{(k)}\right)
+h_v^{(k + 1)} &= \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(k)}}{|N(v)|} + B_kh_v^{(k)}\right)
 \end{align}
 $$
 其中$\sigma$为激活函数。
@@ -47,4 +47,17 @@ $$
 定义对角矩阵$D$
 $$
 D = \mathrm{diag}(\deg(1), \dots, \deg(|V|))
+$$
+
+显然有
+$$
+D^{-1}_{v, v} = \frac{1}{N(v)}
+$$
+故而：
+$$
+\sum_{u \in N(v)}\frac{h_u^{(u)}}{|N(v)|} = D^{-1}AH^{(k)}
+$$
+进一步的
+$$
+H^{(k + 1)} = \si
 $$
