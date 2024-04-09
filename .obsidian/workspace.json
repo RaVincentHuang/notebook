@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "eb398d8b61fe191b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GNN/GAT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6e7c23f0d29c7a2c",
             "type": "leaf",
             "state": {
@@ -212,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -341,8 +329,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "012f1cbc327ac5c6",
+  "active": "f2859386b7b87036",
   "lastOpenFiles": [
+    "RNN/LSTM.md",
+    "RNN",
+    "ML理论/特殊函数/Softmax.md",
+    "ML理论/特殊函数/Sigmoid.md",
+    "ML理论/特殊函数",
+    "ML理论/梯度下降.md",
+    "ML理论/损失函数/交叉熵 Cross Entropy.md",
+    "ML理论/损失函数/L1和L2损失函数.md",
+    "ML理论/损失函数",
+    "GNN/概念/损失函数.md",
+    "GNN/概念/Permutation invariant.md",
+    "GNN/GraphSAGE.md",
+    "GNN/Graph Convolutional Networks (GCN).md",
+    "GNN/Graph Attention Networks (GAT).md",
     "ML理论/Stochastic Gradient Descent (SGD).md",
     "conflict-files-obsidian-git.md",
     "调参经验/优化算法选择.md",
@@ -364,20 +366,6 @@
     "GNN/概念",
     "GNN/Task/Link Prediction.md",
     "GNN/Task",
-    "CNN/卷积核.md",
-    "CNN/卷积相关的计算.md",
-    "tensorflow/数据处理.md",
-    "CNN",
-    "tensorflow/Gradient Tape.md",
-    "数学",
-    "GNN/GAT.md",
-    "tensorflow",
-    "GNN/GCN.md",
-    "GNN/GIN (Graph Isomorphism Network).md",
-    "GNN/GNN.md",
-    "meeting/AI = 机器学习 + 逻辑推理.md",
-    "数学/谱分解.md",
-    "GNN/Spectral Graph Theory.md",
-    "GNN"
+    "CNN"
   ]
 }
