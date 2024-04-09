@@ -21,5 +21,8 @@ $$
 $$
 #### [[LSTM]]
 $$
-\mathrm{AGG}(\cdot) = \math
+\mathrm{AGG}(\cdot) = \mathrm{LSTM}([h_u^{(l-1)}: \forall u \in \pi(N(v))]) \quad \text{where $\pi$ is a shuffle function}
 $$
+
+## 归一化
+最后采用$\mathscr{l}_2$范数归一化$h_v^{(l)}$
