@@ -30,3 +30,8 @@ Nodes aggregate information from their neighbors using neural networks.
 
 ## GNN Layer
 *GNN Layer = Message + Aggregation*
+### Message computation
+**Message function** 
+$$
+m_u^{(l)} = \mathrm{MSG}^{(l)}(h_u^{(l - 1)})
+$$
