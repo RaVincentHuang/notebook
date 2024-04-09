@@ -23,11 +23,6 @@ $\mathbf{X} \in \mathbb{R}^{|V|\times m}$ is a matrix of node features
 [[Permutation invariant]]
 Graph does not have a canonical order of the nodes.
 Graph neural networks consist of multiple permutation equivariant / invariant functions.
-
-### [[Aggregate Neighbors]]
-Generate node embeddings based on local network neighborhoods.
-Nodes aggregate information from their neighbors using neural networks.
-
 ## GNN Layer
 *GNN Layer = Message + Aggregation*
 ### Message computation
@@ -53,4 +48,4 @@ $$
 $\sigma(\cdot)$例如$\mathrm{ReLU}(\cdot),\mathrm{sigmoid}(\cdot)$
 
 ### 例子
-[[Graph Convolutional Networks (GCN)]]
+[[Graph Convolutional Networks (GCN)]] 
