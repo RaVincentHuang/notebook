@@ -41,5 +41,11 @@ m_u^{(l)} = W^{(l)}h_u^{(l - 1)}
 $$
 ### Message Aggregation
 $$
-h_v^{(l)} = \mathrm{AGG}^{(l)}(\{m_u^{(l)}\mid u \in N(v))
+h_v^{(l)} = \mathrm{AGG}^{(l)}\left(\{m_u^{(l)}\mid u \in N(v)\right)
+$$
+例如：$\mathrm{sum}(\cdot)$、$\mathrm{mean}(\cdot)$、$\mathrm{max}(\cdot)$
+**Issue** Information from node $𝑣$ itself could get lost
+修改**Aggregation**环节
+$$
+h_v^{(l)} = \mathrm{concat}\left(\) \mathrm{AGG}^{(l)}\left(\{m_u^{(l)}\mid u \in N(v)\right)
 $$
