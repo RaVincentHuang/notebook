@@ -64,3 +64,17 @@ $$
 h_v^{(l)} = \sigma(\mathrm{sum}\left(\{m_u^{(l)}\mid u \in N(v)\}\right))
 $$
 #### [[GraphSAGE]]
+$$
+\begin{align} 
+h_v^{(l)}  &= \sigma\left(W^{(l)}\cdot\mathrm{concat}(h_v^{(l-1)},\mathrm{AGG}(\{h_u^{(l-1)}\mid \forall u \in N(v\}))\right) \\
+ &= \sigma\left(\mathrm{concat}(W^{(l)} h_v^{(l-1)},\mathrm{AGG}(\{ W^{(l)}h_u^{(l-1)}\mid \forall u \in N(v\}))\right)
+\end{align}
+$$
+**Message**
+$$
+m_u^{(l)}=W^{(l)}h_u^{(l - 1)}
+$$
+**Aggregation**
+$$
+h_v^{(l)} = \sigma(\mathrm{sum}\left(\{m_u^{(l)}\mid u \in N(v)\}\right))
+$$

@@ -25,7 +25,12 @@ $$
 $$
 
 ## 归一化
+
 最后采用$\mathscr{l}_2$范数归一化$h_v^{(l)}$
 $$
 h_v^{(l)} \gets \frac{h_v^{(l)}}{\|h_v^{(l)}\|_2}
 $$
+Without $\mathscr{l}_2$ normalization, the embedding vectors have
+different scales ($\mathscr{l}_2$-norm) for vectors
+In some cases (not always), normalization of embedding
+results in performance improvement
