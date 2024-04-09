@@ -35,3 +35,11 @@ Nodes aggregate information from their neighbors using neural networks.
 $$
 m_u^{(l)} = \mathrm{MSG}^{(l)}(h_u^{(l - 1)})
 $$
+*example* Linear
+$$
+m_u^{(l)} = W^{(l)}h_u^{(l - 1)}
+$$
+### Message Aggregation
+$$
+h_v^{(l)} = \mathrm{AGG}^{(l)}(\{m_u^{(l)}\mid u \in N(v))
+$$
