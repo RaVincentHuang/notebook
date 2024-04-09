@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "1027b8dd1c137ff8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/GraphSAGE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c9a9dc1b43f6500e",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "17e3723f39f77a5b",
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/GraphSAGE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/GraphSAGE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GNN.md"
+                "file": "GNN/GraphSAGE.md"
               }
             }
           }
@@ -179,10 +192,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "8ec94bef4cdaadd7",
+  "active": "012f1cbc327ac5c6",
   "lastOpenFiles": [
-    "GNN/Graph Convolutional Networks (GCN).md",
     "GNN/GNN.md",
+    "GNN/GraphSAGE.md",
+    "GNN/Graph Convolutional Networks (GCN).md",
     "GNN/概念/损失函数.md",
     "ML理论/特殊函数/Softmax.md",
     "GNN/Task/Node Embedding.md",
@@ -212,7 +226,6 @@
     "conflict-files-obsidian-git.md",
     "CNN/卷积核.md",
     "CNN/卷积相关的计算.md",
-    "CNN/典型卷积网络.md",
     "CNN",
     "数学",
     "tensorflow",
