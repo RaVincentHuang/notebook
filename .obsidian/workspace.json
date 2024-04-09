@@ -162,9 +162,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c9a9dc1b43f6500e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -295,7 +305,7 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "c4c5ab7dff77f47b",
+  "active": "c9a9dc1b43f6500e",
   "lastOpenFiles": [
     "GNN/Task/Node Embedding.md",
     "GNN/Task/Graph-Level Features.md",
