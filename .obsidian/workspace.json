@@ -102,9 +102,117 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6a08710c25cc886f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML理论/Stochastic Gradient Descent (SGD).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af20ab746b1f1a3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "调参经验/优化算法选择.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b66bcf9bb70f25db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "调参经验/优化算法选择.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db61fd354d695656",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "调参经验/优化算法选择.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9658f65d41a33e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "调参经验/优化算法选择.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bae726bfffbd535",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "调参经验/优化算法选择.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af0af45275d2fa56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "调参经验/优化算法选择.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f11db1445535c18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML理论/Stochastic Gradient Descent (SGD).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2859386b7b87036",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -170,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML理论/梯度下降 Gradient Descent.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML理论/梯度下降 Gradient Descent.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML理论/梯度下降 Gradient Descent.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -218,11 +326,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -231,14 +341,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "be83258acd8ef010",
+  "active": "012f1cbc327ac5c6",
   "lastOpenFiles": [
     "ML理论/Stochastic Gradient Descent (SGD).md",
+    "conflict-files-obsidian-git.md",
+    "调参经验/优化算法选择.md",
+    "调参经验",
     "ML理论/梯度下降 Gradient Descent.md",
     "GNN/Task/Node Embedding.md",
     "采样技术/Negative smapling.md",
     "CNN/典型卷积网络.md",
-    "conflict-files-obsidian-git.md",
     "采样技术",
     "ML理论",
     "特殊函数/Softmax.md",
@@ -266,8 +378,6 @@
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "数学/谱分解.md",
     "GNN/Spectral Graph Theory.md",
-    "GNN",
-    "Welcome.md",
-    "meeting"
+    "GNN"
   ]
 }
