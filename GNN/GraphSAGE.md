@@ -17,5 +17,9 @@ $$
 $$
 #### Pool
 $$
-\mathrm{pool}(\cdot) = \sum_{u\in N(v)}\frac{h_u^{(l-1)}}{|N(v)|}
+\mathrm{pool}(\cdot) = \mathrm{mean}\left( \{\mathrm{MLP}(h_u^{(l - 1)}) \mid \forall u \in N(v) \} \right)
+$$
+#### [[LSTM]]
+$$
+\mathrm{AGG}(\cdot) = \math
 $$
