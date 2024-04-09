@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/GCN.md",
+                "file": "GNN/Graph Convolutional Networks (GCN).md",
                 "mode": "source",
                 "source": false
               }
@@ -174,9 +174,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "927b7988ec2d25ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/概念/Aggregate Neighbors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -253,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/概念/Aggregate Neighbors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/概念/Aggregate Neighbors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GNN.md"
+                "file": "GNN/概念/Aggregate Neighbors.md"
               }
             }
           }
@@ -307,8 +319,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "c9a9dc1b43f6500e",
+  "active": "927b7988ec2d25ff",
   "lastOpenFiles": [
+    "GNN/Graph Convolutional Networks (GCN).md",
+    "GNN/概念/Aggregate Neighbors.md",
+    "GNN/GNN.md",
     "GNN/GIN (Graph Isomorphism Network).md",
     "GNN/Task/Node Embedding.md",
     "GNN/Task/Graph-Level Features.md",
@@ -318,9 +333,7 @@
     "ML理论/损失函数",
     "ML理论/梯度下降.md",
     "ML理论/Stochastic Gradient Descent (SGD).md",
-    "GNN/GNN.md",
     "GNN/GAT.md",
-    "GNN/概念/Aggregate Neighbors.md",
     "GNN/概念/Permutation invariant.md",
     "GNN/Spectral Graph Theory.md",
     "GNN/概念/Graphlets.md",
@@ -331,7 +344,6 @@
     "数学/谱分解.md",
     "ML理论/特殊函数/Softmax.md",
     "ML理论/特殊函数/Sigmoid.md",
-    "GNN/GCN.md",
     "ML理论",
     "采样技术",
     "ML理论/特殊函数",

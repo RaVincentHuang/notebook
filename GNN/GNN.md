@@ -9,7 +9,7 @@
 
 ### Spectral-based
 [[Spectral Graph Theory]]
-[[GCN]]
+[[Graph Convolutional Networks (GCN)]]
 
 ## 定义
 $$
@@ -47,5 +47,10 @@ $$
 **Issue** Information from node $𝑣$ itself could get lost
 修改**Aggregation**环节
 $$
-h_v^{(l)} = \mathrm{concat}\left(\) \mathrm{AGG}^{(l)}\left(\{m_u^{(l)}\mid u \in N(v)\right)
+h_v^{(l)} = \mathrm{concat}\left(\mathrm{AGG}^{(l)}(\{m_u^{(l)}\mid u \in N(v)), m_v^{(l)}\right)
 $$
+### Nonlinearity (activation)
+$\sigma(\cdot)$例如$\mathrm{ReLU}(\cdot),\mathrm{sigmoid}(\cdot)$
+
+### 例子
+[[Graph Convolutional Networks (GCN)]]
