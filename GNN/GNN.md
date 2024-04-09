@@ -28,3 +28,5 @@ Graph neural networks consist of multiple permutation equivariant / invariant fu
 Generate node embeddings based on local network neighborhoods.
 Nodes aggregate information from their neighbors using neural networks.
 
+## GNN Layer
+*GNN Layer = Message + Aggregation*
