@@ -4,7 +4,7 @@
 ## 理论
 
 ### Spatial-based
-[[GAT]]
+[[Graph Attention Networks (GAT)]]
 [[GIN (Graph Isomorphism Network)]]
 
 ### Spectral-based
@@ -76,5 +76,6 @@ m_u^{(l)}=W^{(l)}h_u^{(l - 1)}
 $$
 **Aggregation**
 $$
-h_v^{(l)} = \sigma(\mathrm{sum}\left(\{m_u^{(l)}\mid u \in N(v)\}\right))
+h_v^{(l)} = \sigma(\mathrm{concat}(m_v^{(l)},\mathrm{AGG}(\{ m_u^{(l)}\mid \forall u \in N(v\})))
 $$
+#### [[Graph Attention Networks (GAT)]]
