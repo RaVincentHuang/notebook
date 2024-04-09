@@ -49,3 +49,14 @@ $\sigma(\cdot)$例如$\mathrm{ReLU}(\cdot),\mathrm{sigmoid}(\cdot)$
 
 ### 例子
 [[Graph Convolutional Networks (GCN)]] 
+$$
+\begin{align} 
+h_v^{(k + 1)} &= \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(k)}}{|N(v)|} + B_kh_v^{(k)}\right) \\
+ &= \sigma\left(\sum_{u \in N(v)}W_k\frac{h_u^{(k)}}{|N(v)|} + B_kh_v^{(k)}\right)
+\end{align}
+$$
+**Message**
+$$
+m_u^{(l)}=\frac{1}{|N(v)|}W^{(l)}h_u^{(l - 1)}
+$$
+****
