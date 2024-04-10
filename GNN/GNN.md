@@ -108,6 +108,9 @@ $$
 #### Aggregation
 
 
-## Over-smoothing Problem
-all the node embeddings converge to the same value.
+## Layers Connectivity
+**over-smoothing problem**: all the node embeddings converge to the same value.
+ + he embedding of a node is determined by **its** receptive field
+ + If two nodes have highly-overlapped receptive fields, then **their embeddings are highly similar**
+
 ### Receptive field
