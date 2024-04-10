@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Task/Clustering Coefficient.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Task/Clustering Coefficient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Task/Clustering Coefficient.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GNN.md"
+                "file": "GNN/Task/Clustering Coefficient.md"
               }
             }
           }
@@ -210,12 +210,13 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "d396126289bcaf68",
+  "active": "012f1cbc327ac5c6",
   "lastOpenFiles": [
+    "GNN/GNN.md",
+    "GNN/Task/Clustering Coefficient.md",
     "Pasted image 20240410204925.png",
     "Pasted image 20240410171408.png",
     "Pasted image 20240410171430.png",
-    "GNN/GNN.md",
     "Pasted image 20240410171128.png",
     "ML理论/ResNet.md",
     "ML理论/特殊函数/Parametric ReLU.md",

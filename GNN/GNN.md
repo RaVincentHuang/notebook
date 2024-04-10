@@ -232,5 +232,7 @@ $$
 $$
 \hat{y}_G = \sum_{v \in G}{h_v^{(L)}}
 $$
+### Ground-truth come from
+[[Clustering Coefficient]]
 
 
