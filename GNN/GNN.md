@@ -104,4 +104,5 @@ $$
 [[Sigmoid]]
 [[Parametric ReLU]]
 #### Attention
+[[Graph Attention Networks (GAT)]]
 #### Aggregation
