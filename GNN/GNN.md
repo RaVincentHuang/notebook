@@ -274,12 +274,19 @@ $$
 $$
 + Binary classification
 $$
-\begin{array}{cc} \\
- & \begin{array}{cc} \text{Actually Positive}  & \text{Actually Negative} \end{array}  \\
-\begin{array}{c} \text{Predicted Positive} \\ \text{Predicted Negative}  \end{array}& \begin{array}{cc} \text{True Positive (TP)}  & \text{True Negative (TN)}  \\
-\text{False Positive (FP)}  & \text{False Negative ()}\end{array}
+\begin{array}{c|c}
+ & \begin{array}{cc} \text{Actually Positive}  & \text{Actually Negative} \end{array}  \\ \hline
+\begin{array}{c} \text{Predicted Positive} \\ \text{Predicted Negative}  \end{array}& \begin{array}{cc} \text{True Positive (TP)}  & \text{False Positive (FP)}  \\
+\text{False Negative (FN)}  & \text{True Negative (TN)}\end{array}
 \end{array}
 $$
+**Accuracy**:
+$$
+\frac{\textrm{TP} + \textrm{TN}}{\textrm{TP} + \textrm{TN} + \textrm{FP} + \textrm{FN}}
+$$
+**Precision**:
+
+
 
  
 
