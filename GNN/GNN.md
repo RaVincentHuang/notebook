@@ -275,8 +275,9 @@ $$
 + Binary classification
 $$
 \begin{array}{cc} \\
- & \begin{array}{cc} \text{Actually Positive}  & \text{Actually negative} \end{array}  \\
-\begin{array}{c}\
+ & \begin{array}{cc} \text{Actually Positive}  & \text{Actually Negative} \end{array}  \\
+\begin{array}{c} \text{Predicted Positive} \\ \text{Predicted Negative}  \end{array}& \begin{array}{cc} \text{True Positive (TP)}  & \text{True Negative (TN)}  \\
+\text{False Positive (FP)}  & \text{False Negative ()}\end{array}
 \end{array}
 $$
 
