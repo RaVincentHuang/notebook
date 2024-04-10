@@ -112,5 +112,13 @@ $$
 **over-smoothing problem**: all the node embeddings converge to the same value.
  + he embedding of a node is determined by **its** receptive field
  + If two nodes have highly-overlapped receptive fields, then **their embeddings are highly similar**
+**GNN**的层数不宜过多，层数略高于需求感受野的大小。
++ make aggregation / transformation become a deep neural network!
++ Add layers that do not pass messages
+	E.g., we can add MLP layers (applied to each node) before and after
+GNN layers, as **pre-process layers** and **post-process layers**
 
-### Receptive field
+
+
+
+
