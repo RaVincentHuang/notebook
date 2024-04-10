@@ -129,6 +129,9 @@ embeddings are needed
 Node embeddings in earlier GNN layers can sometimes better differentiate nodes.
 
 $$
-\mathcal{F}(x) \to 
+\mathcal{F}(\mathbf{x}) \to \mathcal{F}(\mathbf{x}) + \mathbf{x}
+$$
+[[ResNet]]
 $$
 
+$$
