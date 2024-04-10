@@ -255,8 +255,22 @@ $$
 *labels $y^{(i)}$ with continuous value*
 [[L1和L2损失函数]] 使用MSE即L2 loss
 $$
-\mathcal{L}(y^{(i)}, \hat{y}^{(i)}) = \mathcal{L}_2(y^{(i)}, \hat{y}^{(i)}) = \sum_{j = 1}^k ()
+\mathcal{L}(y^{(i)}, \hat{y}^{(i)}) = \mathcal{L}_2(y^{(i)}, \hat{y}^{(i)}) = \sum_{j = 1}^k (y^{(i)}_j - \hat{y}^{(i)}_j)^2
 $$
+### Evaluation Metrics
+#### Regression
++ Root mean square error (**RMSE**)
+$$
+\sqrt{\sum_{i = 1}^N\frac{(y^{(i)} - \hat{y}^{(i)})^2}{N}}
+$$
++ Mean absolute error (MAE)
+$$
+\frac{1}{N}\sum_{i = 1}^N |y^{(i)} -  \hat{y}^{(i)}|
+$$
+#### Classification
++ Multi-class classification: **accuracy**
+
+
  
 
 
