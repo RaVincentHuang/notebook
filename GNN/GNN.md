@@ -178,3 +178,6 @@ Raw input graph $\ne$ computational graph
 #### Node-level prediction
 After GNN computation, we have 𝑑-dim node embeddings $\{h_v^{(L)} \in \mathbb{R} \mid \forall v \in G\}$
 	*𝑘-way prediction*
+$$
+\hat{y}_v = \mathrm{Head}_{\mathrm{node}}(h_v^{(L)})
+$$
