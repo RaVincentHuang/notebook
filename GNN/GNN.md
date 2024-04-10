@@ -216,6 +216,21 @@ $$
 #### Graph-level prediction
 *Make prediction using all the node embeddings in our graph*
 $$
-\hat{y}_G = \mathrm{Head}_{\mathrm{edge}}(h_u^{(L)}, h_v^{(L)})
+\hat{y}_G = \mathrm{Head}_{\mathrm{graph}}(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
 $$
+is like $\mathrm{AGG}(\cdot)$
+**Options**
++ **Global mean pooling**
+$$
+\hat{y}_G = \mathrm{mean}(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
+$$
++ **Global max pooling**
+$$
+\hat{y}_G = \max(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
+$$
++ **Global sum pooling**
+$$
+\hat{y}_G = \sum_{v \in G}(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
+$$
+
 
