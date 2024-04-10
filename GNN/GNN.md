@@ -133,5 +133,13 @@ $$
 $$
 [[ResNet]]
 $$
-
+h_v^{(k + 1)} = \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(k)}}{|N(v)|} + B_kh_v^{(k)}\right)
 $$
+$$
+h_v^{(k + 1)} = \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(k)}}{|N(v)|} + B_kh_v^{(k)} + h_v^{(k)}\right)
+$$
+**Directly skip to the last layer**
+$$
+h_v^{final} = \mathrm{AGG}(\{h_v^{(l)}\}_{l = 1}^L)
+$$
+
