@@ -84,6 +84,16 @@ $$
 #### Linear
 #### BatchNorm
 使一批数据的均值在0，方差为1
+**Input** $X \in \mathbb{R}^{N\times D}$: $N$ node embedding。
+**Parameters** $\gamma, \beta \in \mathbb{R}^{D}$
+**Output** $Y \in \mathbb{R}^{N\times D}$ Normalized node embeddings
+$$
+\begin{align}
+\mu_i  & = \frac{1}{N}\sum_{i = 1}^N X_{i, j} \\
+\sigma_j^2  & = \frac{1}{N}\sum_{i = 1}^N (X_{i, j} - \mu_j)^2 \\
+
+\end{align}
+$$
 #### Dropout
 #### Actiation
 #### Attention
