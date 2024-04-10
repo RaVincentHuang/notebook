@@ -6,3 +6,7 @@ $$
 $$
 H(p, q) = -\sum_{x\in \mathcal{X}}p(x)\log q(x)
 $$
+若$p$和$q$为$\mathcal{X}$上的[[绝对连续]]分布，设$P, Q$为$p, q$的在测度$r$下的pdf
+$$
+H(p, q) = -\int_{\mathcal{X}}P(x)\log Q(x) \dv
+$$
