@@ -273,6 +273,12 @@ $$
 \frac{\mathbb{I}_{\arg\max \hat{y}^{(i)} = y^{(i)}}}{N}
 $$
 + Binary classification
+$$
+\begin{array}{cc} \\
+ & \begin{array}{cc} \text{Actually Positive}  & \text{Actually negative} \end{array}  \\
+\begin{array}{c}\
+\end{array}
+$$
 
  
 
