@@ -162,3 +162,7 @@ Raw input graph $\ne$ computational graph
 	+ PageRank
 	+ Centrality
 
+
+### Add Virtual Nodes / Edges
+*Augment sparse graphs*
+**Edge** 使用二步的邻接矩阵$A + A^2$代替$A$
