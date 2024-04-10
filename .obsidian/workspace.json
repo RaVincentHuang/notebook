@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML理论/反向传播.md",
+                "file": "GNN/Graph Attention Networks (GAT).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML理论/反向传播.md",
+                "file": "GNN/Graph Attention Networks (GAT).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML理论/反向传播.md",
+                "file": "GNN/Graph Attention Networks (GAT).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML理论/反向传播.md"
+                "file": "GNN/Graph Attention Networks (GAT).md"
               }
             }
           }
