@@ -91,8 +91,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML理论/损失函数/Cross Entropy 交叉熵.md",
+                "file": "GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML理论/损失函数/Cross Entropy 交叉熵.md",
+                "file": "GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML理论/损失函数/Cross Entropy 交叉熵.md"
+                "file": "GNN/GNN.md"
               }
             }
           }
@@ -222,11 +221,11 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "1f48d5c42611abc3",
+  "active": "4c7512f9062fba08",
   "lastOpenFiles": [
+    "ML理论/损失函数/Cross Entropy 交叉熵.md",
     "支撑集.md",
     "数学/谱分解.md",
-    "ML理论/损失函数/Cross Entropy 交叉熵.md",
     "数学/点集拓扑",
     "GNN/GNN.md",
     "GNN/图指标/PageRank.md",

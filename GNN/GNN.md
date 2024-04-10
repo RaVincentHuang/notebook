@@ -248,7 +248,9 @@ $$
 #### Classification
 *labels $y^{(i)}$ with discrete value*
 [[Cross Entropy 交叉熵]]
-
+$$
+\mathcal{L}(\hat{y}^{(i)}, y^{(i)}) = H(\hat{y}^{(i)}, y^{(i)}) =-\sum_{j = 1}^{k}
+$$
  
  
 
