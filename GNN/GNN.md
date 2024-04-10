@@ -140,6 +140,12 @@ h_v^{(k + 1)} = \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(k)}}{|N(v)|} + B_kh_
 $$
 **Directly skip to the last layer**
 $$
-h_v^{final} = \mathrm{AGG}(\{h_v^{(l)}\}_{l = 1}^L)
+h_v^{final} = \mathrm{AGG}\left(\left\{h_v^{(l)}\right\}_{l = 1}^L\right)
 $$
 
+## Manipulate Graphs
+Raw input graph $\ne$ computational graph
++ **Feature level** The input graph *lacks features* $\to$ feature augmentation
++ **Structure level** 
+	+ The graph is too sparse $\to$ inefficient message passing
+	+ The graph is too dense $\to$ message passing is too costly
