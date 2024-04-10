@@ -206,6 +206,10 @@
   },
   "active": "b6e71725a1b54ecc",
   "lastOpenFiles": [
+    "调参经验/优化算法选择.md",
+    "调参经验",
+    "ML理论/梯度下降 Gradient Descent.md",
+    "ML理论/反向传播.md",
     "GNN/GraphSAGE.md",
     "GNN/Graph Attention Networks (GAT).md",
     "GNN/GNN.md",
@@ -231,16 +235,12 @@
     "meeting/AI = 机器学习 + 逻辑推理.md",
     "meeting/LLM-Code.md",
     "数学/谱分解.md",
-    "ML理论/特殊函数/Sigmoid.md",
     "ML理论",
     "采样技术",
     "ML理论/特殊函数",
     "GNN/Task",
     "GNN/概念",
-    "conflict-files-obsidian-git.md",
-    "CNN/卷积核.md",
     "CNN",
-    "数学",
-    "tensorflow"
+    "数学"
   ]
 }
