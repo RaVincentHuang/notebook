@@ -170,4 +170,4 @@ Raw input graph $\ne$ computational graph
 	Greatly improves **message passing** in sparse graphs
 ### Node Neighborhood Sampling
 **Dense/large graphs, high-degree nodes**: *(Randomly) determine a node’s neighborhood for message passing*
-*
+*需要理论保证*
