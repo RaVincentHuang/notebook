@@ -183,3 +183,10 @@ $$
 $$
 where $W^{(H)} \in \mathbb{R}^{k\times d}$ is a mapping that$: \mathbb{R}^d \to \mathbb{R}^k$ so that $\hat{y}_v \in \mathbb{R}^k$
 
+#### Edge-level prediction
+*Make prediction using pairs of node embeddings*
+$$
+\hat{y}_{u, v} = \mathrm{Head}_{\mathrm{edge}}(h_u^{(L)}, h_v^{(L)})
+$$
+
+
