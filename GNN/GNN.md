@@ -175,3 +175,6 @@ Raw input graph $\ne$ computational graph
 ## 训练
 ### Prediction Heads
 *Different task levels require different prediction heads*
+#### Node-level prediction
+After GNN computation, we have 𝑑-dim node embeddings $\{h_v^{(L)} \in \mathbb{R} \mid \forall v \in G\}$
+	*𝑘-way prediction*
