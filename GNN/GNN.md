@@ -166,3 +166,8 @@ Raw input graph $\ne$ computational graph
 ### Add Virtual Nodes / Edges
 *Augment sparse graphs*
 **Edge** 使用二步的邻接矩阵$A + A^2$代替$A$
+**Node** 加入一个连接所有节点的虚拟节点
+	Greatly improves **message passing** in sparse graphs
+### Node Neighborhood Sampling
+**Dense/large graphs, high-degree nodes**: *(Randomly) determine a node’s neighborhood for message passing*
+*
