@@ -198,7 +198,19 @@ $$
 where $\mathrm{Linear}(\cdot): \mathbb{R}^{2d} \to \mathbb{R}^{k}$
 
 #### Dot product (consine)
+
+$$
+\hat{y}_{u, v} = (h_u^{(L)})^{\top} h_v^{(L)}
+$$
+
 *This approach only applies to 1-way prediction*
+*k-way prediction:*
 $$
-\hat{y}_{u, v} = h_u^{(L)}^\top h_v^{(L)}
+\begin{align}
+\hat{y}_{u, v}^{(1)}  = (h_u^{(L)})^{\top} & W^{(1)} h_v^{(L)} \\
+ & \vdots \\
+\hat{y}_{u, v}^{(k)}  = (h_u^{(L)})^{\top} & W^{(k)} h_v^{(L)}  \\
+\hat{y}_{u, v} = \mathrm{concat}( & \hat{y}_{u, v}^{(1)}, \dots, \hat{y}_{u, v}^{(k)})
+\end{align}
 $$
+
