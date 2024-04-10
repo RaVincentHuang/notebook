@@ -244,7 +244,10 @@ $$
 + **Graph-level**: Graph statistics: for example, predict if two graphs are isomorphic
 
 ### Loss Function
-**prediction** $\hat{y}^{(i)}$
+**prediction** $\hat{y}^{(i)}$ **label** $y^{(i)}$
+#### Classification
+*labels $y^{(i)}$ with discrete value*
+[[Cross Entropy 交叉熵]]
 
  
  
