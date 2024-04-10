@@ -147,5 +147,5 @@ $$
 Raw input graph $\ne$ computational graph
 + **Feature level** The input graph *lacks features* $\to$ feature augmentation
 + **Structure level** 
-	+ The graph is too sparse $\to$ inefficient message passing
+	+ The graph is too sparse $\to$inefficient message passing
 	+ The graph is too dense $\to$ message passing is too costly
