@@ -79,3 +79,5 @@ $$
 h_v^{(l)} = \sigma(\mathrm{concat}(m_v^{(l)},\mathrm{AGG}(\{ m_u^{(l)}\mid \forall u \in N(v\})))
 $$
 #### [[Graph Attention Networks (GAT)]]
+
+### Lay
