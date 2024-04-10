@@ -98,7 +98,10 @@ $$
 *为什么这里要加一个额外的线性层？*
 #### [[Dropout]]
 减少过拟合：训练时以概率$p$随机移除某些神经元。
-**GNN**中
+**GNN**中Dropout is applied to the *linear layer* in the message function.
 #### Actiation
+[[Rectified linear unit (ReLU)]]
+[[Sigmoid]]
+[[Parametric ReLU]]
 #### Attention
 #### Aggregation
