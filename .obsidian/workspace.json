@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,7 +149,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "415c13bef1a720ae",
+  "active": "75d9d7b8eff9920a",
   "lastOpenFiles": [
     "GNN/GraphSAGE.md",
     "ML理论/特殊函数/Softmax.md",
