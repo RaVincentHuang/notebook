@@ -132,6 +132,7 @@ $$
 \mathcal{F}(\mathbf{x}) \to \mathcal{F}(\mathbf{x}) + \mathbf{x}
 $$
 [[ResNet]]
+![[Pasted image 20240410171408.png]]
 $$
 h_v^{(k + 1)} = \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(k)}}{|N(v)|} + B_kh_v^{(k)}\right)
 $$
@@ -142,6 +143,7 @@ $$
 $$
 h_v^{final} = \mathrm{AGG}\left(\left\{h_v^{(l)}\right\}_{l = 1}^L\right)
 $$
+![[Pasted image 20240410171430.png]]
 
 ## Manipulate Graphs
 Raw input graph $\ne$ computational graph
@@ -152,5 +154,11 @@ Raw input graph $\ne$ computational graph
 	+ The graph is too large $\to$ cannot fit the computational graph into a GPU $\to$ Sample subgraphs to compute embeddings
 
 ### Feature Augmentation
++ Input graph does not have node features
 
 ![[Pasted image 20240410171128.png]]
++ Certain structures are hard to learn by GNN
+	+ Clustering coefficient
+	+ PageRank
+	+ Centrality
+
