@@ -82,7 +82,7 @@ $$
 
 ### Layer in Practice
 #### Linear
-#### BatchNorm
+#### [[BatchNorm]]
 使一批数据的均值在0，方差为1
 **Input** $X \in \mathbb{R}^{N\times D}$: $N$ node embedding。
 **Parameters** $\gamma, \beta \in \mathbb{R}^{D}$
@@ -95,8 +95,10 @@ $$
 Y_{i, j}  & =\gamma \hat{X}_{i,j} + \beta_j
 \end{align}
 $$
-
-#### Dropout
+*为什么这里要加一个额外的线性层？*
+#### [[Dropout]]
+减少过拟合：训练时以概率$p$随机移除某些神经元。
+**GNN**中
 #### Actiation
 #### Attention
 #### Aggregation
