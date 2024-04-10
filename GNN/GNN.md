@@ -233,6 +233,11 @@ $$
 \hat{y}_G = \sum_{v \in G}{h_v^{(L)}}
 $$
 ### Ground-truth come from
+
+#### Supervised
+Node labels: in a citation network, which subject area does a node belong to
+Edge labels: in a transaction network, whether an edge is fraudulent
+Graph labels: among molecular graphs, the drug likeness of graphs
 [[Clustering Coefficient]]
 
 

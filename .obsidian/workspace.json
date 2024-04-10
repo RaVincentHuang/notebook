@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML理论/特殊函数/Softmax.md",
+                "file": "GNN/GNN.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,18 +26,6 @@
               "type": "markdown",
               "state": {
                 "file": "ML理论/特殊函数/Rectified linear unit (ReLU).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d396126289bcaf68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GNN/Task/Clustering Coefficient.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/Task/Clustering Coefficient.md",
+                "file": "GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/Task/Clustering Coefficient.md",
+                "file": "GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/Task/Clustering Coefficient.md"
+                "file": "GNN/GNN.md"
               }
             }
           }
@@ -210,18 +197,19 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "012f1cbc327ac5c6",
+  "active": "8ec94bef4cdaadd7",
   "lastOpenFiles": [
+    "ML理论/特殊函数/Softmax.md",
+    "ML理论/特殊函数/Rectified linear unit (ReLU).md",
+    "GNN/图指标/Clustering Coefficient.md",
+    "GNN/图指标",
     "GNN/GNN.md",
-    "GNN/Task/Clustering Coefficient.md",
     "Pasted image 20240410204925.png",
     "Pasted image 20240410171408.png",
     "Pasted image 20240410171430.png",
     "Pasted image 20240410171128.png",
     "ML理论/ResNet.md",
     "ML理论/特殊函数/Parametric ReLU.md",
-    "ML理论/特殊函数/Rectified linear unit (ReLU).md",
-    "ML理论/特殊函数/Softmax.md",
     "ML理论/特殊函数/Sigmoid.md",
     "ML理论/损失函数/交叉熵 Cross Entropy.md",
     "ML理论/损失函数/L1和L2损失函数.md",
@@ -244,13 +232,11 @@
     "GNN/概念/Aggregate Neighbors.md",
     "GNN/GIN (Graph Isomorphism Network).md",
     "ML理论/损失函数",
-    "ML理论/梯度下降.md",
     "ML理论",
     "采样技术",
     "ML理论/特殊函数",
     "GNN/Task",
     "GNN/概念",
-    "CNN",
-    "数学"
+    "CNN"
   ]
 }
