@@ -269,7 +269,10 @@ $$
 $$
 #### Classification
 + Multi-class classification: **accuracy**
-
+$$
+\frac{\mathbb{I}_{\arg\max \hat{y}^{(i)} = y^{(i)}}}{N}
+$$
++ Binary classification
 
  
 
