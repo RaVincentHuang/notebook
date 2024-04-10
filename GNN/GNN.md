@@ -282,10 +282,20 @@ $$
 $$
 **Accuracy**:
 $$
-\frac{\textrm{TP} + \textrm{TN}}{\textrm{TP} + \textrm{TN} + \textrm{FP} + \textrm{FN}}
+\frac{\mathrm{TP} + \mathrm{TN}}{\mathrm{TP} + \mathrm{TN} + \mathrm{FP} + \mathrm{FN}}
 $$
-**Precision**:
-
+**Precision ($P$)**:
+$$
+\frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FP}}
+$$
+**Recall ($R$):**
+$$
+\frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FN}}
+$$
+**F1-Score**:
+$$
+\frac{2P\cdot R}{P + R}
+$$
 
 
  
