@@ -89,11 +89,13 @@ $$
 **Output** $Y \in \mathbb{R}^{N\times D}$ Normalized node embeddings
 $$
 \begin{align}
-\mu_i  & = \frac{1}{N}\sum_{i = 1}^N X_{i, j} \\
+\mu_j  & = \frac{1}{N}\sum_{i = 1}^N X_{i, j} \\
 \sigma_j^2  & = \frac{1}{N}\sum_{i = 1}^N (X_{i, j} - \mu_j)^2 \\
-
+ \hat{X}_{i,j}  & = \frac{X_{i,j} - \mu_j}{\sqrt{\sigma_j^2 + \epsilon}}  \\
+Y_{i, j}  & =\gamma \hat{X}_{i,j} + \beta_j
 \end{align}
 $$
+
 #### Dropout
 #### Actiation
 #### Attention
