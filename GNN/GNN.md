@@ -145,7 +145,12 @@ $$
 
 ## Manipulate Graphs
 Raw input graph $\ne$ computational graph
-+ **Feature level** The input graph *lacks features* $\to$ feature augmentation
++ **Feature level** The input graph *lacks features* $\to$ **feature augmentation**
 + **Structure level** 
-	+ The graph is too sparse $\to$inefficient message passing
-	+ The graph is too dense $\to$ message passing is too costly
+	+ The graph is too sparse $\to$ inefficient message passing $\to$ Add virtual nodes / edges
+	+ The graph is too dense $\to$ message passing is too costly $\to$ Sample neighbors when doing message passing
+	+ The graph is too large $\to$ cannot fit the computational graph into a GPU $\to$ Sample subgraphs to compute embeddings
+
+### Feature Augmentation
+
+![[Pasted image 20240410171128.png]]

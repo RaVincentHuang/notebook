@@ -224,8 +224,9 @@
   },
   "active": "d38cf89203682fe5",
   "lastOpenFiles": [
-    "ML理论/ResNet.md",
+    "Pasted image 20240410171128.png",
     "GNN/GNN.md",
+    "ML理论/ResNet.md",
     "Parametric ReLU.md",
     "ML理论/特殊函数/Rectified linear unit (ReLU).md",
     "ML理论/特殊函数/Softmax.md",
@@ -252,7 +253,6 @@
     "GNN/GIN (Graph Isomorphism Network).md",
     "ML理论/损失函数",
     "ML理论/梯度下降.md",
-    "ML理论/Stochastic Gradient Descent (SGD).md",
     "ML理论",
     "采样技术",
     "ML理论/特殊函数",
