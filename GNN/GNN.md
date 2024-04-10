@@ -219,7 +219,7 @@ $$
 \hat{y}_G = \mathrm{Head}_{\mathrm{graph}}(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
 $$
 is like $\mathrm{AGG}(\cdot)$
-**Options**
+**Options** (small graph)
 + **Global mean pooling**
 $$
 \hat{y}_G = \mathrm{mean}(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
@@ -230,7 +230,7 @@ $$
 $$
 + **Global sum pooling**
 $$
-\hat{y}_G = \sum_{v \in G}(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
+\hat{y}_G = \sum_{v \in G}{h_v^{(L)}}
 $$
 
 
