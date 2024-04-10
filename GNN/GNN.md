@@ -171,3 +171,7 @@ Raw input graph $\ne$ computational graph
 ### Node Neighborhood Sampling
 **Dense/large graphs, high-degree nodes**: *(Randomly) determine a node’s neighborhood for message passing*
 *需要理论保证*
+
+## 训练
+### Prediction Heads
+*Different task levels require different prediction heads*
