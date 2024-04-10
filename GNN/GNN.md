@@ -106,3 +106,8 @@ $$
 #### Attention
 [[Graph Attention Networks (GAT)]]
 #### Aggregation
+
+
+## Over-smoothing Problem
+all the node embeddings converge to the same value.
+### Receptive field
