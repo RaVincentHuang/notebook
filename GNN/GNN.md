@@ -188,5 +188,17 @@ where $W^{(H)} \in \mathbb{R}^{k\times d}$ is a mapping that$: \mathbb{R}^d \to 
 $$
 \hat{y}_{u, v} = \mathrm{Head}_{\mathrm{edge}}(h_u^{(L)}, h_v^{(L)})
 $$
+**Options:**
+##### Concatenation + Linear
+![[Pasted image 20240410204925.png]]
 
+$$
+\hat{y}_{u, v} = \mathrm{Linear}(\mathrm{concat}(h_u^{(L)}, h_v^{(L)}))
+$$
+where $\mathrm{Linear}(\cdot): \mathbb{R}^{2d} \to \mathbb{R}^{k}$
 
+#### Dot product (consine)
+*This approach only applies to 1-way prediction*
+$$
+\hat{y}_{u, v} = h_u^{(L)}^\top h_v^{(L)}
+$$
