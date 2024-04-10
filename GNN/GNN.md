@@ -235,9 +235,18 @@ $$
 ### Ground-truth come from
 
 #### Supervised
-Node labels: in a citation network, which subject area does a node belong to
-Edge labels: in a transaction network, whether an edge is fraudulent
-Graph labels: among molecular graphs, the drug likeness of graphs
-[[Clustering Coefficient]]
++ **Node labels**: in a citation network, which subject area does a node belong to
++ **Edge labels**: in a transaction network, whether an edge is fraudulent
++ **Graph labels**: among molecular graphs, the drug likeness of graphs
+#### Unsupervised
++ **Node-level**:  Node statistics [[Clustering Coefficient]] [[PageRank]]
++ **Edge-level**: Link prediction: hide the edge between two nodes, predict if there should be a link
++ **Graph-level**: Graph statistics: for example, predict if two graphs are isomorphic
+
+### Loss Function
+**prediction** $\hat{y}^{(i)}$
+
+ 
+ 
 
 
