@@ -57,24 +57,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "17e3723f39f77a5b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ae780ab37484ad09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GNN/GraphSAGE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
