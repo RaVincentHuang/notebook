@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Graph Convolutional Networks (GCN).md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Graph Convolutional Networks (GCN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GNN.md",
+                "file": "GNN/Graph Convolutional Networks (GCN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GNN.md"
+                "file": "GNN/Graph Convolutional Networks (GCN).md"
               }
             }
           }
@@ -236,8 +236,8 @@
   },
   "active": "ca75b2eadd4f9665",
   "lastOpenFiles": [
-    "GNN/GIN (Graph Isomorphism Network).md",
     "GNN/GNN.md",
+    "GNN/GIN (Graph Isomorphism Network).md",
     "Heterogeneous Graph.md",
     "GNN/Task/Link Prediction.md",
     "ML理论/ROC.md",
