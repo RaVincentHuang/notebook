@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/GraphSAGE.md",
+                "file": "GNN/GNN.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GraphSAGE.md",
+                "file": "GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GraphSAGE.md",
+                "file": "GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GraphSAGE.md"
+                "file": "GNN/GNN.md"
               }
             }
           }
@@ -236,6 +236,7 @@
   },
   "active": "ca75b2eadd4f9665",
   "lastOpenFiles": [
+    "GNN/GraphSAGE.md",
     "GNN/GNN.md",
     "GNN/Graph Convolutional Networks (GCN).md",
     "GNN/概念/Permutation invariant.md",
@@ -263,7 +264,6 @@
     "ML理论/Dropout.md",
     "ML理论/BatchNorm.md",
     "GNN/Graph Attention Networks (GAT).md",
-    "GNN/GraphSAGE.md",
     "调参经验/优化算法选择.md",
     "调参经验",
     "ML理论/梯度下降 Gradient Descent.md",
