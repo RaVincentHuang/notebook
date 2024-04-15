@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ML理论/损失函数/Cross Entropy 交叉熵.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3076c4c990491654",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "数学/复分析/傅里叶级数.md",
                 "mode": "source",
                 "source": false
@@ -91,7 +103,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1cfd879472c38c09",
@@ -222,20 +234,27 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "455ed267caf52863",
+  "active": "3076c4c990491654",
   "lastOpenFiles": [
-    "GNN/GNN.md",
+    "符号.md",
     "数学/复分析/傅里叶级数.md",
+    "ML理论/损失函数/Cross Entropy 交叉熵.md",
+    "ML理论/损失函数/L1和L2损失函数.md",
+    "GNN/Task/Link Prediction.md",
+    "GNN/Task/Node Embedding.md",
+    "GNN/概念/Permutation invariant.md",
+    "GNN/概念/Graphlets.md",
+    "GNN/概念/损失函数.md",
+    "调参经验/优化算法选择.md",
+    "采样技术/Negative smapling.md",
+    "数学/点集拓扑/支撑集.md",
+    "GNN/Heterogeneous Graph.md",
+    "GNN/GNN.md",
     "数学/复分析",
     "GNN/GraphSAGE.md",
     "GNN/Graph Convolutional Networks (GCN).md",
-    "GNN/概念/Permutation invariant.md",
     "GNN/GIN (Graph Isomorphism Network).md",
-    "Heterogeneous Graph.md",
-    "GNN/Task/Link Prediction.md",
     "ML理论/ROC.md",
-    "ML理论/损失函数/Cross Entropy 交叉熵.md",
-    "支撑集.md",
     "数学/谱分解.md",
     "数学/点集拓扑",
     "GNN/图指标/PageRank.md",
@@ -250,14 +269,7 @@
     "ML理论/ResNet.md",
     "ML理论/特殊函数/Parametric ReLU.md",
     "ML理论/特殊函数/Sigmoid.md",
-    "ML理论/损失函数/L1和L2损失函数.md",
-    "ML理论/Dropout.md",
-    "ML理论/BatchNorm.md",
-    "GNN/Graph Attention Networks (GAT).md",
-    "调参经验/优化算法选择.md",
     "调参经验",
-    "ML理论/梯度下降 Gradient Descent.md",
-    "ML理论/反向传播.md",
     "RNN",
     "ML理论/损失函数",
     "ML理论",
