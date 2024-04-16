@@ -132,6 +132,172 @@ $$
 \mathcal{F}(\mathbf{x}) \to \mathcal{F}(\mathbf{x}) + \mathbf{x}
 $$
 [[ResNet]]
+![[Pasted image 20240410171408.png]]
 $$
+h_v^{(k + 1)} = \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(k)}}{|N(v)|} + B_kh_v^{(k)}\right)
+$$
+$$
+h_v^{(k + 1)} = \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(k)}}{|N(v)|} + B_kh_v^{(k)} + h_v^{(k)}\right)
+$$
+**Directly skip to the last layer**
+$$
+h_v^{final} = \mathrm{AGG}\left(\left\{h_v^{(l)}\right\}_{l = 1}^L\right)
+$$
+![[Pasted image 20240410171430.png]]
+
+## Manipulate Graphs
+Raw input graph $\ne$ computational graph
++ **Feature level** The input graph *lacks features* $\to$ **feature augmentation**
++ **Structure level** 
+	+ The graph is too sparse $\to$ inefficient message passing $\to$ Add virtual nodes / edges
+	+ The graph is too dense $\to$ message passing is too costly $\to$ Sample neighbors when doing message passing
+	+ The graph is too large $\to$ cannot fit the computational graph into a GPU $\to$ Sample subgraphs to compute embeddings
+
+### Feature Augmentation
++ Input graph does not have node features
+
+![[Pasted image 20240410171128.png]]
++ Certain structures are hard to learn by GNN
+	+ Clustering coefficient
+	+ PageRank
+	+ Centrality
+
+
+### Add Virtual Nodes / Edges
+*Augment sparse graphs*
+**Edge** 使用二步的邻接矩阵$A + A^2$代替$A$
+**Node** 加入一个连接所有节点的虚拟节点
+	Greatly improves **message passing** in sparse graphs
+### Node Neighborhood Sampling
+**Dense/large graphs, high-degree nodes**: *(Randomly) determine a node’s neighborhood for message passing*
+*需要理论保证*
+
+## 训练
+### Prediction Heads
+*Different task levels require different prediction heads*
+#### Node-level prediction
+After GNN computation, we have 𝑑-dim node embeddings $\{h_v^{(L)} \in \mathbb{R} \mid \forall v \in G\}$
+	*𝑘-way prediction*
+$$
+\hat{y}_v = \mathrm{Head}_{\mathrm{node}}(h_v^{(L)}) = W^{(H)}h_v^{(L)}
+$$
+where $W^{(H)} \in \mathbb{R}^{k\times d}$ is a mapping that$: \mathbb{R}^d \to \mathbb{R}^k$ so that $\hat{y}_v \in \mathbb{R}^k$
+
+#### Edge-level prediction
+*Make prediction using pairs of node embeddings*
+$$
+\hat{y}_{u, v} = \mathrm{Head}_{\mathrm{edge}}(h_u^{(L)}, h_v^{(L)})
+$$
+**Options:**
+##### Concatenation + Linear
+![[Pasted image 20240410204925.png]]
 
 $$
+\hat{y}_{u, v} = \mathrm{Linear}(\mathrm{concat}(h_u^{(L)}, h_v^{(L)}))
+$$
+where $\mathrm{Linear}(\cdot): \mathbb{R}^{2d} \to \mathbb{R}^{k}$
+
+#### Dot product (consine)
+
+$$
+\hat{y}_{u, v} = (h_u^{(L)})^{\top} h_v^{(L)}
+$$
+
+*This approach only applies to 1-way prediction*
+*k-way prediction:*
+$$
+\begin{align}
+\hat{y}_{u, v}^{(1)}   =   &  (h_u^{(L)})^{\top} W^{(1)} h_v^{(L)} \\
+ & \vdots \\
+\hat{y}_{u, v}^{(k)}    =   &  (h_u^{(L)})^{\top} W^{(k)} h_v^{(L)}  \\
+\hat{y}_{u, v}   =   &  \mathrm{concat}(\hat{y}_{u, v}^{(1)}, \dots, \hat{y}_{u, v}^{(k)}) \in \mathbb{R}^k
+\end{align}
+$$
+#### Graph-level prediction
+*Make prediction using all the node embeddings in our graph*
+$$
+\hat{y}_G = \mathrm{Head}_{\mathrm{graph}}(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
+$$
+is like $\mathrm{AGG}(\cdot)$
+**Options** (small graph)
++ **Global mean pooling**
+$$
+\hat{y}_G = \mathrm{mean}(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
+$$
++ **Global max pooling**
+$$
+\hat{y}_G = \max(\{h_v^{(L)} \in \mathbb{R}^d \mid \forall v \in G \})
+$$
++ **Global sum pooling**
+$$
+\hat{y}_G = \sum_{v \in G}{h_v^{(L)}}
+$$
+### Ground-truth come from
+
+#### Supervised
++ **Node labels**: in a citation network, which subject area does a node belong to
++ **Edge labels**: in a transaction network, whether an edge is fraudulent
++ **Graph labels**: among molecular graphs, the drug likeness of graphs
+#### Unsupervised
++ **Node-level**:  Node statistics [[Clustering Coefficient]] [[PageRank]]
++ **Edge-level**: Link prediction: hide the edge between two nodes, predict if there should be a link
++ **Graph-level**: Graph statistics: for example, predict if two graphs are isomorphic
+
+### Loss Function
+**prediction** $\hat{y}^{(i)}$ **label** $y^{(i)}$
+#### Classification
+*labels $y^{(i)}$ with discrete value*
+[[Cross Entropy 交叉熵]]
+$$
+\mathcal{L}(y^{(i)}, \hat{y}^{(i)}) = H(y^{(i)}, \hat{y}^{(i)}) =-\sum_{j = 1}^{k}y^{(i)}_j\log \hat{y}^{(i)}_j \quad \text{where}\ \  y^{(i)}, \hat{y}^{(i)} \in \mathbb{R}^k
+$$
+#### Regression
+*labels $y^{(i)}$ with continuous value*
+[[L1和L2损失函数]] 使用MSE即L2 loss
+$$
+\mathcal{L}(y^{(i)}, \hat{y}^{(i)}) = \mathcal{L}_2(y^{(i)}, \hat{y}^{(i)}) = \sum_{j = 1}^k (y^{(i)}_j - \hat{y}^{(i)}_j)^2
+$$
+### Evaluation Metrics
+#### Regression
++ Root mean square error (**RMSE**)
+$$
+\sqrt{\sum_{i = 1}^N\frac{(y^{(i)} - \hat{y}^{(i)})^2}{N}}
+$$
++ Mean absolute error (MAE)
+$$
+\frac{1}{N}\sum_{i = 1}^N |y^{(i)} -  \hat{y}^{(i)}|
+$$
+#### Classification
++ Multi-class classification: **accuracy**
+$$
+\frac{\mathbb{I}_{\arg\max \hat{y}^{(i)} = y^{(i)}}}{N}
+$$
++ Binary classification
+$$
+\begin{array}{c|c}
+ & \begin{array}{cc} \text{Actually Positive}  & \text{Actually Negative} \end{array}  \\ \hline
+\begin{array}{c} \text{Predicted Positive} \\ \text{Predicted Negative}  \end{array}& \begin{array}{cc} \text{True Positive (TP)}  & \text{False Positive (FP)}  \\
+\text{False Negative (FN)}  & \text{True Negative (TN)}\end{array}
+\end{array}
+$$
+**Accuracy**:
+$$
+\frac{\mathrm{TP} + \mathrm{TN}}{\mathrm{TP} + \mathrm{TN} + \mathrm{FP} + \mathrm{FN}}
+$$
+**Precision ($P$)**:
+$$
+\frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FP}}
+$$
+**Recall ($R$):**
+$$
+\frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FN}}
+$$
+**F1-Score**:
+$$
+\frac{2P\cdot R}{P + R}
+$$
+[[ROC]]
+
+ 
+
+
