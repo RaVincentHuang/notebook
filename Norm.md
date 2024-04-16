@@ -5,7 +5,7 @@ $$
 其中$\gamma, \beta$为要学习对参数
 
 ## Batch Norm 通道归一化
-BN跟Batch size
+BN的效果跟Batch size有关
 
 ## Layer Norm 层归一化
 
