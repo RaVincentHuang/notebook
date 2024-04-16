@@ -4,71 +4,119 @@
     "type": "split",
     "children": [
       {
-        "id": "c2f3ae8114161014",
+        "id": "4037cf9e86fbd299",
         "type": "tabs",
         "children": [
           {
-            "id": "415c13bef1a720ae",
+            "id": "455ed267caf52863",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML理论/Dropout.md",
+                "file": "ML理论/损失函数/Cross Entropy 交叉熵.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "279817448150220b",
+            "id": "3076c4c990491654",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据规范化技术.md",
+                "file": "数学/复分析/傅里叶级数.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "950d48866470c158",
+            "id": "0b3e965fd174c9b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据集扩充技术.md",
+                "file": "数学/复分析/傅里叶级数.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b9806e9f55f9fca2",
+            "id": "d4b6aaedb15765aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "目标函数正则化项.md",
+                "file": "数学/谱分解.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "950e150a40da3a07",
+            "id": "1f48d5c42611abc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Norm.md",
+                "file": "ML理论/损失函数/Cross Entropy 交叉熵.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2d54fe2b17f6d24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/图指标/PageRank.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c441ae705e10b6b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML理论/BatchNorm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1027b8dd1c137ff8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/GraphSAGE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9a9dc1b43f6500e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GNN/Graph Convolutional Networks (GCN).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1cfd879472c38c09",
@@ -128,35 +176,6 @@
         "id": "219bdf2eed410149",
         "type": "tabs",
         "children": [
-          {
-            "id": "75d9d7b8eff9920a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Norm.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "bfa13ad5da1caae3",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Norm.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "dd6a07222f767716",
             "type": "leaf",
@@ -169,12 +188,41 @@
             }
           },
           {
-            "id": "c578becf693a5d99",
+            "id": "7c803dd32d5e9d0b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "数学/复分析/傅里叶级数.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f80760debc411eb4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "数学/复分析/傅里叶级数.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b33be1eb712e140e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Norm.md"
+                "file": "数学/复分析/傅里叶级数.md"
               }
             }
           }
@@ -187,54 +235,58 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "zk-prefixer:创建时间戳笔记": false,
-      "random-note:开始漫游笔记": false,
-      "workspaces:管理工作区布局": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false,
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "950e150a40da3a07",
+  "active": "0b3e965fd174c9b8",
   "lastOpenFiles": [
     "目标函数正则化项.md",
-    "Norm.md",
     "数据集扩充技术.md",
     "数据规范化技术.md",
-    "ML理论/Dropout.md",
-    "GNN/Graph Attention Networks (GAT).md",
-    "conflict-files-obsidian-git.md",
-    "符号.md",
-    "数学/点集拓扑/支撑集.md",
-    "数学/点集拓扑",
+    "Norm.md",
     "数学/泛函分析/Dirichlet条件.md",
+    "泛函分析.md",
     "数学/泛函分析",
     "数学/复分析/傅里叶级数.md",
-    "数学/复分析",
-    "GNN/Heterogeneous Graph.md",
-    "支撑集.md",
-    "ML理论/特殊函数/Parametric ReLU.md",
+    "符号.md",
     "ML理论/损失函数/Cross Entropy 交叉熵.md",
-    "ML理论/ROC.md",
-    "Heterogeneous Graph.md",
-    "GNN/图指标/PageRank.md",
-    "GNN/图指标/Clustering Coefficient.md",
-    "GNN/图指标",
-    "Parametric ReLU.md",
-    "ML理论/特殊函数/Rectified linear unit (ReLU).md",
-    "ML理论/ResNet.md",
-    "ML理论/BatchNorm.md",
+    "ML理论/损失函数/L1和L2损失函数.md",
+    "GNN/Task/Link Prediction.md",
+    "GNN/Task/Node Embedding.md",
+    "GNN/概念/Permutation invariant.md",
+    "GNN/概念/Graphlets.md",
+    "GNN/概念/损失函数.md",
+    "调参经验/优化算法选择.md",
+    "采样技术/Negative smapling.md",
+    "数学/点集拓扑/支撑集.md",
+    "GNN/Heterogeneous Graph.md",
+    "GNN/GNN.md",
+    "数学/复分析",
     "GNN/GraphSAGE.md",
-    "ML理论/特殊函数/Softmax.md",
-    "ML理论/反向传播.md",
-    "RNN",
-    "ML理论/特殊函数",
-    "ML理论/损失函数",
+    "GNN/Graph Convolutional Networks (GCN).md",
+    "GNN/GIN (Graph Isomorphism Network).md",
+    "ML理论/ROC.md",
+    "数学/谱分解.md",
+    "数学/点集拓扑",
+    "GNN/图指标/PageRank.md",
+    "Pasted image 20240410204925.png",
+    "GNN/图指标",
+    "Pasted image 20240410171408.png",
+    "Pasted image 20240410171430.png",
+    "Pasted image 20240410171128.png",
     "调参经验",
+    "RNN",
+    "ML理论/损失函数",
+    "ML理论",
     "采样技术",
-    "ML理论"
+    "ML理论/特殊函数"
   ]
 }
