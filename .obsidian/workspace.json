@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据集扩充技术.md",
+                "file": "数据规范化技术.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据集扩充技术.md",
+                "file": "数据规范化技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据集扩充技术.md",
+                "file": "数据规范化技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据集扩充技术.md"
+                "file": "数据规范化技术.md"
               }
             }
           }
@@ -200,9 +200,9 @@
   },
   "active": "950e150a40da3a07",
   "lastOpenFiles": [
+    "数据集扩充技术.md",
     "Norm.md",
     "目标函数正则化项.md",
-    "数据集扩充技术.md",
     "数据规范化技术.md",
     "ML理论/Dropout.md",
     "GNN/Graph Attention Networks (GAT).md",
