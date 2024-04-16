@@ -151,6 +151,8 @@
   },
   "active": "415c13bef1a720ae",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "GNN/Graph Attention Networks (GAT).md",
     "符号.md",
     "数学/点集拓扑/支撑集.md",
     "数学/点集拓扑",
@@ -159,8 +161,6 @@
     "数学/复分析/傅里叶级数.md",
     "数学/复分析",
     "GNN/Heterogeneous Graph.md",
-    "conflict-files-obsidian-git.md",
-    "GNN/Graph Attention Networks (GAT).md",
     "支撑集.md",
     "ML理论/特殊函数/Parametric ReLU.md",
     "ML理论/损失函数/Cross Entropy 交叉熵.md",
