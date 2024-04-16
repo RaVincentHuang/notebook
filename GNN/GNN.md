@@ -96,7 +96,7 @@ Y_{i, j}  & =\gamma \hat{X}_{i,j} + \beta_j
 \end{align}
 $$
 *为什么这里要加一个额外的线性层？*
-#### [[Dropout]]
+#### [[Dropout 解耦合]]
 减少过拟合：训练时以概率$p$随机移除某些神经元。
 **GNN**中Dropout is applied to the *linear layer* in the message function.
 #### Actiation
