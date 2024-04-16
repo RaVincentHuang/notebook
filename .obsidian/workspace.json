@@ -151,6 +151,14 @@
   },
   "active": "415c13bef1a720ae",
   "lastOpenFiles": [
+    "符号.md",
+    "数学/点集拓扑/支撑集.md",
+    "数学/点集拓扑",
+    "数学/泛函分析/Dirichlet条件.md",
+    "数学/泛函分析",
+    "数学/复分析/傅里叶级数.md",
+    "数学/复分析",
+    "GNN/Heterogeneous Graph.md",
     "conflict-files-obsidian-git.md",
     "GNN/Graph Attention Networks (GAT).md",
     "支撑集.md",
@@ -175,17 +183,9 @@
     "ML理论/特殊函数/Sigmoid.md",
     "ML理论/特殊函数",
     "ML理论/梯度下降.md",
-    "ML理论/损失函数/交叉熵 Cross Entropy.md",
-    "ML理论/损失函数/L1和L2损失函数.md",
     "ML理论/损失函数",
-    "GNN/概念/损失函数.md",
-    "GNN/概念/Permutation invariant.md",
-    "GNN/Graph Convolutional Networks (GCN).md",
     "调参经验",
     "采样技术",
-    "ML理论",
-    "特殊函数",
-    "GNN/概念",
-    "GNN/Task"
+    "ML理论"
   ]
 }
