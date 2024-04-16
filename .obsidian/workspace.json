@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/Graph Attention Networks (GAT).md",
+                "file": "ML理论/Dropout.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "279817448150220b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据规范化技术.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "950d48866470c158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据集扩充技术.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9806e9f55f9fca2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "目标函数正则化项.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "950e150a40da3a07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Norm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/Graph Attention Networks (GAT).md",
+                "file": "Norm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/Graph Attention Networks (GAT).md",
+                "file": "Norm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/Graph Attention Networks (GAT).md"
+                "file": "Norm.md"
               }
             }
           }
@@ -149,10 +198,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "415c13bef1a720ae",
+  "active": "950e150a40da3a07",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "目标函数正则化项.md",
+    "Norm.md",
+    "数据集扩充技术.md",
+    "数据规范化技术.md",
+    "ML理论/Dropout.md",
     "GNN/Graph Attention Networks (GAT).md",
+    "conflict-files-obsidian-git.md",
     "符号.md",
     "数学/点集拓扑/支撑集.md",
     "数学/点集拓扑",
@@ -172,17 +226,12 @@
     "Parametric ReLU.md",
     "ML理论/特殊函数/Rectified linear unit (ReLU).md",
     "ML理论/ResNet.md",
-    "ML理论/Dropout.md",
     "ML理论/BatchNorm.md",
     "GNN/GraphSAGE.md",
     "ML理论/特殊函数/Softmax.md",
     "ML理论/反向传播.md",
-    "ML理论/Stochastic Gradient Descent (SGD).md",
-    "RNN/LSTM.md",
     "RNN",
-    "ML理论/特殊函数/Sigmoid.md",
     "ML理论/特殊函数",
-    "ML理论/梯度下降.md",
     "ML理论/损失函数",
     "调参经验",
     "采样技术",
