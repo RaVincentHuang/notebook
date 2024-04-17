@@ -248,6 +248,8 @@
   },
   "active": "0b3e965fd174c9b8",
   "lastOpenFiles": [
+    "损失函数正则化.md",
+    "ML理论/Dropout 解耦合.md",
     "conflict-files-obsidian-git.md",
     "数学/复分析/傅里叶级数.md",
     "目标函数正则化项.md",
@@ -274,8 +276,6 @@
     "GNN/GraphSAGE.md",
     "GNN/Graph Convolutional Networks (GCN).md",
     "GNN/GIN (Graph Isomorphism Network).md",
-    "ML理论/ROC.md",
-    "数学/谱分解.md",
     "数学/点集拓扑",
     "Pasted image 20240410204925.png",
     "GNN/图指标",
