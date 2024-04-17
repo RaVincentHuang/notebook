@@ -235,11 +235,11 @@
   },
   "active": "455ed267caf52863",
   "lastOpenFiles": [
+    "ML理论/Dropout 解耦合.md",
+    "GNN/GNN.md",
     "ML理论/损失函数/Cross Entropy 交叉熵.md",
     "Pasted image 20240410171430.png.md",
-    "GNN/GNN.md",
     "数学/复分析/傅里叶级数.md",
-    "ML理论/Dropout 解耦合.md",
     "ML理论/BatchNorm.md",
     "ML理论/梯度下降 Gradient Descent.md",
     "GNN/Graph Attention Networks (GAT).md",
