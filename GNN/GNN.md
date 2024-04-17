@@ -153,7 +153,6 @@ Raw input graph $\ne$ computational graph
 ### Feature Augmentation
 + Input graph does not have node features
 
-![[Pasted image 20240410171128.png]]
 + Certain structures are hard to learn by GNN
 	+ Clustering coefficient
 	+ PageRank
