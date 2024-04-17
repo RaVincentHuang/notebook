@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "2b5e1a085c2750e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d4b6aaedb15765aa",
             "type": "leaf",
             "state": {
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学/复分析/傅里叶级数.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学/复分析/傅里叶级数.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学/复分析/傅里叶级数.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -246,8 +258,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "0b3e965fd174c9b8",
+  "active": "2b5e1a085c2750e3",
   "lastOpenFiles": [
+    "数学/复分析/傅里叶级数.md",
+    "conflict-files-obsidian-git.md",
     "目标函数正则化项.md",
     "数据集扩充技术.md",
     "数据规范化技术.md",
@@ -255,7 +269,6 @@
     "数学/泛函分析/Dirichlet条件.md",
     "泛函分析.md",
     "数学/泛函分析",
-    "数学/复分析/傅里叶级数.md",
     "符号.md",
     "ML理论/损失函数/Cross Entropy 交叉熵.md",
     "ML理论/损失函数/L1和L2损失函数.md",
@@ -276,7 +289,6 @@
     "ML理论/ROC.md",
     "数学/谱分解.md",
     "数学/点集拓扑",
-    "GNN/图指标/PageRank.md",
     "Pasted image 20240410204925.png",
     "GNN/图指标",
     "Pasted image 20240410171408.png",
