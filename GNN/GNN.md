@@ -116,8 +116,7 @@ $$
 **GNN**的层数不宜过多，层数略高于需求感受野的大小。
 + make aggregation / transformation become a deep neural network!
 + Add layers that do not pass messages
-	E.g., we can add MLP layers (applied to each node) before and after
-GNN layers, as **pre-process layers** and **post-process layers**
+	E.g., we can add MLP layers (applied to each node) before and after GNN layers, as **pre-process layers** and **post-process layers**
 
 **Pre-processing layers** Important whenencoding node features is necessary.
 	E.g., when nodes represent images/text
