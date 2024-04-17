@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学/复分析/傅里叶级数.md",
+                "file": "GNN/GraphSAGE.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学/复分析/傅里叶级数.md",
+                "file": "GNN/GraphSAGE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学/复分析/傅里叶级数.md",
+                "file": "GNN/GraphSAGE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学/复分析/傅里叶级数.md"
+                "file": "GNN/GraphSAGE.md"
               }
             }
           }
@@ -248,10 +248,10 @@
   },
   "active": "0b3e965fd174c9b8",
   "lastOpenFiles": [
+    "数学/复分析/傅里叶级数.md",
     "损失函数正则化.md",
     "ML理论/Dropout 解耦合.md",
     "conflict-files-obsidian-git.md",
-    "数学/复分析/傅里叶级数.md",
     "目标函数正则化项.md",
     "数据集扩充技术.md",
     "数据规范化技术.md",
