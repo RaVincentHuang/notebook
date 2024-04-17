@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/GraphSAGE.md",
+                "file": "GNN/GNN.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/GraphSAGE.md",
+                "file": "GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/GraphSAGE.md",
+                "file": "GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/GraphSAGE.md"
+                "file": "GNN/GNN.md"
               }
             }
           }
@@ -248,6 +248,7 @@
   },
   "active": "0b3e965fd174c9b8",
   "lastOpenFiles": [
+    "GNN/GraphSAGE.md",
     "数学/复分析/傅里叶级数.md",
     "损失函数正则化.md",
     "ML理论/Dropout 解耦合.md",
@@ -273,7 +274,6 @@
     "GNN/Heterogeneous Graph.md",
     "GNN/GNN.md",
     "数学/复分析",
-    "GNN/GraphSAGE.md",
     "GNN/Graph Convolutional Networks (GCN).md",
     "GNN/GIN (Graph Isomorphism Network).md",
     "数学/点集拓扑",
