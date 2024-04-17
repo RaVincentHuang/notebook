@@ -80,7 +80,7 @@ h_v^{(l)} = \sigma(\mathrm{concat}(m_v^{(l)},\mathrm{AGG}(\{ m_u^{(l)}\mid \fora
 $$
 #### [[Graph Attention Networks (GAT)]]
 
-### Layer in Practice
+## Layer in Practice
 #### Linear
 #### [[BatchNorm]]
 使一批数据的均值在0，方差为1

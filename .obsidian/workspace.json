@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/Graph Attention Networks (GAT).md",
+                "file": "GNN/GNN.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GNN/Graph Attention Networks (GAT).md",
+                "file": "GNN/GNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/Graph Attention Networks (GAT).md",
+                "file": "GNN/GNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GNN/Graph Attention Networks (GAT).md"
+                "file": "GNN/GNN.md"
               }
             }
           }
@@ -248,6 +248,7 @@
   },
   "active": "0b3e965fd174c9b8",
   "lastOpenFiles": [
+    "GNN/Graph Attention Networks (GAT).md",
     "GNN/GNN.md",
     "GNN/GraphSAGE.md",
     "数学/复分析/傅里叶级数.md",
@@ -275,7 +276,6 @@
     "GNN/Heterogeneous Graph.md",
     "数学/复分析",
     "GNN/Graph Convolutional Networks (GCN).md",
-    "GNN/GIN (Graph Isomorphism Network).md",
     "数学/点集拓扑",
     "Pasted image 20240410204925.png",
     "GNN/图指标",
