@@ -132,7 +132,6 @@ $$
 \mathcal{F}(\mathbf{x}) \to \mathcal{F}(\mathbf{x}) + \mathbf{x}
 $$
 [[ResNet]]
-![[Pasted image 20240410171408.png]]
 $$
 h_v^{(k + 1)} = \sigma\left(W_k\sum_{u \in N(v)}\frac{h_u^{(k)}}{|N(v)|} + B_kh_v^{(k)}\right)
 $$
@@ -143,7 +142,6 @@ $$
 $$
 h_v^{final} = \mathrm{AGG}\left(\left\{h_v^{(l)}\right\}_{l = 1}^L\right)
 $$
-![[Pasted image 20240410171430.png]]
 
 ## Manipulate Graphs
 Raw input graph $\ne$ computational graph
@@ -190,7 +188,6 @@ $$
 $$
 **Options:**
 ##### Concatenation + Linear
-![[Pasted image 20240410204925.png]]
 
 $$
 \hat{y}_{u, v} = \mathrm{Linear}(\mathrm{concat}(h_u^{(L)}, h_v^{(L)}))
