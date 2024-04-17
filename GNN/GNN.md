@@ -109,7 +109,7 @@ $$
 
 
 ## Layers Connectivity
-**over-smoothing problem**: all the node embeddings converge to the same value.
+**over-smoothing problem**: 
  + he embedding of a node is determined by **its** receptive field
  + If two nodes have highly-overlapped receptive fields, then **their embeddings are highly similar**
 ### 减少层数
