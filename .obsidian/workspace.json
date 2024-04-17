@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "2b5e1a085c2750e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d4b6aaedb15765aa",
             "type": "leaf",
             "state": {
@@ -128,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "数学/复分析/傅里叶级数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "数学/复分析/傅里叶级数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "数学/复分析/傅里叶级数.md"
               }
             }
           }
@@ -258,10 +246,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "2b5e1a085c2750e3",
+  "active": "0b3e965fd174c9b8",
   "lastOpenFiles": [
-    "数学/复分析/傅里叶级数.md",
     "conflict-files-obsidian-git.md",
+    "数学/复分析/傅里叶级数.md",
     "目标函数正则化项.md",
     "数据集扩充技术.md",
     "数据规范化技术.md",
