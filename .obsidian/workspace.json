@@ -80,29 +80,19 @@
             }
           },
           {
-            "id": "111d58c8394dbaa1",
+            "id": "6c99cb6579b55598",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "出题.md",
+                "file": "目标函数正则化项.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "6c99cb6579b55598",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -168,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "出题.md",
+                "file": "目标函数正则化项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "出题.md",
+                "file": "目标函数正则化项.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "出题.md"
+                "file": "目标函数正则化项.md"
               }
             }
           }
@@ -234,11 +224,12 @@
   },
   "active": "6c99cb6579b55598",
   "lastOpenFiles": [
+    "符号.md",
+    "出题.md",
     "8.3出题.docx",
     "~$a.docx",
     "a.docx",
     "GNN/GNN.md",
-    "出题.md",
     "损失函数正则化.md",
     "Norm.md",
     "ML理论/Dropout 解耦合.md",
@@ -247,7 +238,6 @@
     "数据集扩充技术.md",
     "GNN/Graph Attention Networks (GAT).md",
     "conflict-files-obsidian-git.md",
-    "符号.md",
     "数学/点集拓扑/支撑集.md",
     "数学/点集拓扑",
     "数学/泛函分析/Dirichlet条件.md",
@@ -268,7 +258,6 @@
     "ML理论/ResNet.md",
     "RNN",
     "ML理论/特殊函数",
-    "ML理论/损失函数",
-    "调参经验"
+    "ML理论/损失函数"
   ]
 }
