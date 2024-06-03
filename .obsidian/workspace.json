@@ -90,9 +90,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c99cb6579b55598",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -222,7 +232,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "012f1cbc327ac5c6",
+  "active": "6c99cb6579b55598",
   "lastOpenFiles": [
     "8.3出题.docx",
     "~$a.docx",
