@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CCA.md",
+                "file": "Canonical Correlation Analysis (CCA).md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CCA.md",
+                "file": "Canonical Correlation Analysis (CCA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CCA.md",
+                "file": "Canonical Correlation Analysis (CCA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CCA.md"
+                "file": "Canonical Correlation Analysis (CCA).md"
               }
             }
           }
@@ -273,7 +273,7 @@
   "active": "83f404866304add7",
   "lastOpenFiles": [
     "Pearson correlation coefficient (PCC).md",
-    "CCA.md",
+    "Canonical Correlation Analysis (CCA).md",
     "a.md",
     "正则化方法/数据规范化技术.md",
     "ML理论/统计方法",
