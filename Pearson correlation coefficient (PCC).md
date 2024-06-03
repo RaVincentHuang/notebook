@@ -9,6 +9,9 @@ $$
 where $s_x = \sqrt{\frac{1}{n}\sum_{i = 1}^n (x_i - \bar{x})^2}$
 $$
 \Sigma = \begin{bmatrix}
-	\sigma_X^2  &  
+	\sigma_X^2  & \rho_{X,Y}\sigma_X\sigma_Y \\ \\
+    \rho_{X,Y}\sigma_X\sigma_Y  & \sigma_Y^2
 \end{bmatrix}
 $$
+
+在高噪声下，表现比[[CCA]]好。

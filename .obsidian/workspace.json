@@ -272,8 +272,9 @@
   },
   "active": "83f404866304add7",
   "lastOpenFiles": [
-    "a.md",
+    "CCA.md",
     "Pearson correlation coefficient (PCC).md",
+    "a.md",
     "正则化方法/数据规范化技术.md",
     "ML理论/统计方法",
     "正则化方法/损失函数正则化.md",
@@ -306,7 +307,6 @@
     "GNN/图指标/Clustering Coefficient.md",
     "GNN/图指标",
     "Parametric ReLU.md",
-    "ML理论/特殊函数/Rectified linear unit (ReLU).md",
     "RNN"
   ]
 }
