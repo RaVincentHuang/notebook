@@ -4,5 +4,11 @@
 $$
 ## sample Pearson correlation coefficient
 $$
-r_{X,Y} = \frac{\sum_{i = 1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i = 1}^n (x_i - \bar{x})^2}\sqrt{\sum_{i = 1}^n (y_i - \bar{y})^2}} = 
+r_{x,y} = \frac{\sum_{i = 1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i = 1}^n (x_i - \bar{x})^2}\sqrt{\sum_{i = 1}^n (y_i - \bar{y})^2}} = \frac{1}{n - 1}\sum_{i = i}^n \left(\frac{x_i - \bar{x}}{s_x}\right)\left(\frac{y_i - \bar{y}}{s_y}\right)
+$$
+where $s_x = \sqrt{\frac{1}{n}\sum_{i = 1}^n (x_i - \bar{x})^2}$
+$$
+\Sigma = \begin{bmatrix}
+	\sigma_x^2 
+\end{bmatrix}
 $$
