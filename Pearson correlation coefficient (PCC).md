@@ -9,6 +9,6 @@ $$
 where $s_x = \sqrt{\frac{1}{n}\sum_{i = 1}^n (x_i - \bar{x})^2}$
 $$
 \Sigma = \begin{bmatrix}
-	\sigma_x^2 
+	\sigma_X^2  &  
 \end{bmatrix}
 $$
