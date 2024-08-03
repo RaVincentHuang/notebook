@@ -150,9 +150,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ae71450ed26a4640",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.2"
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -282,7 +292,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "80ca9a71cea368c6",
+  "active": "ae71450ed26a4640",
   "lastOpenFiles": [
     "Canonical Correlation Analysis (CCA).md",
     "互信息.md",
