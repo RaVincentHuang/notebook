@@ -16,7 +16,9 @@
                 "file": "ML理论/Dropout 解耦合.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Dropout 解耦合"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "正则化方法/数据规范化技术.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "数据规范化技术"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "数据集扩充技术.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "数据集扩充技术"
             }
           },
           {
@@ -52,7 +58,9 @@
                 "file": "正则化方法/目标函数正则化项.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "目标函数正则化项"
             }
           },
           {
@@ -64,7 +72,9 @@
                 "file": "正则化方法/Norm.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Norm"
             }
           },
           {
@@ -76,7 +86,9 @@
                 "file": "GNN/GNN.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "GNN"
             }
           },
           {
@@ -88,7 +100,9 @@
                 "file": "正则化方法/Norm.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Norm"
             }
           },
           {
@@ -100,7 +114,9 @@
                 "file": "正则化方法/目标函数正则化项.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "目标函数正则化项"
             }
           },
           {
@@ -112,7 +128,9 @@
                 "file": "正则化方法/目标函数正则化项.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "目标函数正则化项"
             }
           },
           {
@@ -124,7 +142,9 @@
                 "file": "正则化方法/数据规范化技术.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "数据规范化技术"
             }
           },
           {
@@ -136,7 +156,9 @@
                 "file": "Canonical Correlation Analysis (CCA).md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Canonical Correlation Analysis (CCA)"
             }
           },
           {
@@ -148,7 +170,9 @@
                 "file": "互信息.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "互信息"
             }
           },
           {
@@ -158,7 +182,9 @@
               "type": "release-notes",
               "state": {
                 "currentVersion": "1.6.2"
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.6.2"
             }
           },
           {
@@ -168,11 +194,25 @@
               "type": "release-notes",
               "state": {
                 "currentVersion": "1.6.7"
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.6.7"
+            }
+          },
+          {
+            "id": "16f184f997dbedf2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -192,7 +232,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -207,7 +249,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -215,7 +259,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -238,7 +284,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "互信息.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +291,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
@@ -255,10 +302,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "互信息.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "出链"
             }
           },
           {
@@ -269,7 +317,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -277,9 +327,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "互信息.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           }
         ]
@@ -302,7 +352,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6366b90b02016677",
+  "active": "16f184f997dbedf2",
   "lastOpenFiles": [
     "Canonical Correlation Analysis (CCA).md",
     "互信息.md",
